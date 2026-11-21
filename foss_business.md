@@ -602,4 +602,1217 @@ The government portal architecture in India is dense, but it is not opaque. The 
 
 A founder who treats these portals as a checklist to be completed in order will spend less time correcting filings and more time building the business. The portals are not perfect. State systems are uneven, some approval workflows still involve physical touchpoints, and the language across portals is not fully harmonized. But the direction is clear: the government has built a digital-first layer for startup formation and support, and the founders who learn to use it gain a structural advantage over those who treat it as an afterthought.
 
+<br><br><br><br> 
+
+<h1 align="center">DIRECTORY OF GLOBAL TECHNOLOGY COMPANIES AND STARTUPS</h1>
+
+<br><br><br><br>
+
+<br><br>
+
+### Overview
+
+This document presents a compiled directory of 1,078 technology companies, software firms, and startups from across the global business landscape. The listing represents a cross-section of the technology sector, ranging from established multinational corporations to emerging ventures in various stages of growth. The directory is intended to serve as a reference point for stakeholders seeking to understand the breadth of the technology ecosystem.
+
+### Scope and Composition
+
+The directory encompasses organizations across multiple categories, reflecting the diversity of the modern technology industry. These categories are not mutually exclusive, as many companies operate across several domains.
+
+| Category | Description | Examples |
+| :--- | :--- | :--- |
+| **Technology Giants** | Established global corporations with significant market presence | Apple, Microsoft, Google, Amazon, IBM |
+| **Financial Services & FinTech** | Banking institutions, investment firms, and financial technology innovators | Goldman Sachs, PayPal, Stripe, Razorpay |
+| **Software & SaaS** | Companies specializing in software development and cloud-based services | Salesforce, Adobe, Atlassian, Shopify |
+| **E-commerce & Consumer Platforms** | Digital marketplaces and direct-to-consumer platforms | Amazon, Flipkart, Zomato, Airbnb |
+| **Aerospace & Defense** | Organizations involved in space technology, defense, and aviation | Airbus, ISRO, DRDO |
+| **Enterprise Solutions** | Providers of B2B services and enterprise software | Cognizant, Infosys, Accenture, EPAM |
+| **Emerging Startups** | Venture-backed companies and early-stage innovative firms | Various entries across fintech, healthtech, and edtech |
+| **Digital Media & Content** | Media platforms, streaming services, and content creation tools | Spotify, Discord, Medium, Bandcamp |
+
+### Geographic Diversity
+
+The companies represented span multiple continents, with significant representation from the following regions:
+
+- **North America**: United States, Canada
+- **Europe**: United Kingdom, Germany, France, Poland, Sweden, and others
+- **Asia**: India, China, Japan, Singapore, Indonesia
+- **South America**: Brazil, Argentina
+- **Australia and Oceania**
+
+### Industry Sectors Represented
+
+The directory covers a broad spectrum of technology-enabled industries, illustrating the pervasive influence of technology across the global economy. Key sectors include:
+
+- Artificial Intelligence and Machine Learning
+- Cloud Computing and Infrastructure
+- Financial Technology (FinTech)
+- Health Technology (HealthTech)
+- Educational Technology (EdTech)
+- E-commerce and Retail Technology
+- Cybersecurity
+- Enterprise Software and SaaS
+- Mobile Applications
+- Gaming and Entertainment
+- Aerospace and Defense Technology
+- Digital Marketing and Advertising Technology (AdTech)
+- Human Resources and Recruitment Technology
+- Logistics and Supply Chain Technology
+
+### Methodology
+
+The compilation was derived from multiple source documents and consolidated to eliminate duplicate entries while preserving the integrity of the original data. Each organization has been assigned a unique serial index to facilitate easy reference and navigation within the accompanying table.
+
+### Data Considerations and Limitations
+
+Users of this directory should be aware that the corporate landscape is inherently dynamic. The information presented represents a snapshot in time, and organizations may have undergone significant changes since the data was compiled. Such changes may include, but are not limited to:
+
+- Acquisitions or mergers resulting in new parent entities
+- Rebranding initiatives leading to name changes
+- Operational cessation or bankruptcy
+- Strategic pivots, restructuring, or spin-offs
+- Geographic expansion or consolidation
+
+Furthermore, the directory includes some company names that are generic or for which limited public information is available. The absence of a company from this list does not imply any judgment on its significance or viability.
+
+### Intended Use
+
+This directory is intended to serve as a foundational reference for a range of stakeholders, including:
+
+- **Job seekers** exploring career opportunities within the technology sector
+- **Investors** conducting preliminary research on potential portfolio companies
+- **Business development professionals** identifying potential partners, clients, or competitors
+- **Market researchers** analyzing industry composition and trends
+- **Students and academics** studying the technology ecosystem
+
+The directory is a starting point for research and should not be used as the sole basis for critical business decisions.
+
+### Recommendations for Utilization
+
+For optimal and responsible use of this directory, the following steps are strongly recommended:
+
+1.  **Verify Current Status**: Confirm the operational status and legal name of any company of interest through its official website or relevant business registries.
+2.  **Consult Recent News**: Review recent news and industry publications to identify any major corporate developments, such as acquisitions, leadership changes, or financial results.
+3.  **Utilize Multiple Sources**: Supplement the information in this directory with data from other sources, including financial databases, industry reports, and professional networks.
+4.  **Review Accompanying Disclaimer**: Carefully read the associated disclaimer for a full understanding of the limitations of this data.
+
+### Key Statistics
+
+| Metric | Value |
+| :--- | :--- |
+| Total Companies Listed | 1,078 |
+| Geographic Regions | 30+ countries represented |
+| Industry Sectors | 15+ primary categories |
+| Company Types | Public, private, venture-backed, government |
+
+<br>
+
+# Disclaimer
+
+**Please Read Carefully**
+
+The information provided in the accompanying table and this executive summary has been compiled from various sources and is presented for general informational purposes only. While efforts have been made to ensure the accuracy of the company names and their serial numbering, no guarantee is made regarding the completeness, accuracy, reliability, or current status of the information presented.
+
+**Important Considerations:**
+
+- **Dynamic Corporate Status**: The corporate landscape is subject to constant change. Companies listed may have undergone significant changes since the time of compilation, including but not limited to mergers, acquisitions, rebranding, bankruptcy, cessation of operations, restructuring, or spin-offs.
+
+- **Temporal Relevance**: The status of companies in this list is time-sensitive. An organization that was operational when this data was compiled may have since been acquired, shut down, or rebranded.
+
+- **Verification Required**: Users are strongly advised to exercise due diligence and independently verify all information. Recommended verification steps include:
+    - Consulting official company websites.
+    - Checking current corporate registrations in relevant jurisdictions.
+    - Confirming company status through recent news or official announcements.
+    - Validating any commercial or professional relationships independently.
+
+- **No Warranties**: This compilation is provided on an "as is" basis without any warranties, express or implied. The compilers and distributors disclaim all liability for any errors, omissions, or inaccuracies.
+
+- **Not Professional Advice**: The information contained herein does not constitute professional, financial, investment, or legal advice. It should not be used as the sole basis for making business decisions, investments, or establishing professional relationships without independent verification by a qualified professional.
+
+By using this information, you acknowledge and agree that the compilers and distributors of this data shall not be held liable for any losses, damages, or consequences arising from its use. It is your sole responsibility to ensure you have the most current and accurate information for your specific needs.
+
+<br><br><br><br>
+ 
+| Index | Company Name |
+| :--- | :--- |
+| 1 | [24]7.ai |
+| 2 | 10up |
+| 3 | 15Five |
+| 4 | 17hats |
+| 5 | 18F |
+| 6 | 1mg |
+| 7 | 1Password |
+| 8 | 314e Corporation |
+| 9 | 3i Infotech |
+| 10 | 42 Technologies |
+| 11 | abiturma |
+| 12 | Ably |
+| 13 | Abstract API |
+| 14 | acct |
+| 15 | Accolite software |
+| 16 | Accord software |
+| 17 | Acko |
+| 18 | Acivilate |
+| 19 | Acquia |
+| 20 | ActiveCampaign |
+| 21 | Ad Hoc |
+| 22 | Adaface |
+| 23 | AddStructure |
+| 24 | Adeva |
+| 25 | Adobe |
+| 26 | Adzuna |
+| 27 | AE Studio |
+| 28 | Aerolab |
+| 29 | Aerostrat |
+| 30 | AgFlow |
+| 31 | Agile Solutions |
+| 32 | Agnikul Cosmos |
+| 33 | Aha! |
+| 34 | Aim India |
+| 35 | Airbase |
+| 36 | Airbank |
+| 37 | Airbnb |
+| 38 | Airbyte |
+| 39 | AirGarage |
+| 40 | Airbus |
+| 41 | Airline |
+| 42 | Airtel x labs |
+| 43 | AirTreks |
+| 44 | Aivitex |
+| 45 | Ajio |
+| 46 | Akamai |
+| 47 | Alami |
+| 48 | Alan |
+| 49 | Algorand |
+| 50 | Algorithmia |
+| 51 | ALICE |
+| 52 | Alight Solutions |
+| 53 | Alley |
+| 54 | allyDVM |
+| 55 | AlphaSights |
+| 56 | Alstom |
+| 57 | Amadeus labs |
+| 58 | Amazon |
+| 59 | Ambaum |
+| 60 | Amdocs |
+| 61 | American express |
+| 62 | Amway |
+| 63 | Andela |
+| 64 | Animalz |
+| 65 | Annertech |
+| 66 | Anomali |
+| 67 | apartment therapy |
+| 68 | Apna |
+| 69 | App Dynamics |
+| 70 | Appen |
+| 71 | Appinio |
+| 72 | Apple |
+| 73 | AppInventiv |
+| 74 | Applaudo |
+| 75 | Appstractor Corporation |
+| 76 | Appwrite |
+| 77 | Aptiv |
+| 78 | Arcesium |
+| 79 | argyle |
+| 80 | ARK |
+| 81 | Arkency |
+| 82 | Art & Logic |
+| 83 | Artefactual Systems |
+| 84 | Articulate |
+| 85 | Aryaka networks |
+| 86 | Asteria Aerospace Ltd |
+| 87 | Athena Health |
+| 88 | Atlan |
+| 89 | Atlassian |
+| 90 | Audiense |
+| 91 | Aula Education |
+| 92 | Auth0 |
+| 93 | Automattic |
+| 94 | Avaya |
+| 95 | Axelerant |
+| 96 | Axios |
+| 97 | Bain & Co |
+| 98 | Bairesdev |
+| 99 | Balena |
+| 100 | Balsamiq |
+| 101 | Bandcamp |
+| 102 | BandLab |
+| 103 | Bandzoogle |
+| 104 | BARC India |
+| 105 | Barclays |
+| 106 | Baremetrics |
+| 107 | Basecamp |
+| 108 | Bazaarvoice |
+| 109 | Bear Group |
+| 110 | BeBanjo |
+| 111 | BeenVerified |
+| 112 | Bellatrix Aerospace |
+| 113 | Benchmark |
+| 114 | Best Practical Solutions |
+| 115 | Betable |
+| 116 | BetaPeak |
+| 117 | Better |
+| 118 | BetterUp |
+| 119 | Beyond Company |
+| 120 | BeyondPricing |
+| 121 | BharatPe |
+| 122 | BigBasket |
+| 123 | Big Cartel |
+| 124 | Bill |
+| 125 | Bit Zesty |
+| 126 | Bitnami |
+| 127 | Bitovi |
+| 128 | Bizink |
+| 129 | BlackBuck |
+| 130 | Blackrock |
+| 131 | Blameless |
+| 132 | Bloc |
+| 133 | Bloomberg LP |
+| 134 | BlueCat Networks |
+| 135 | BlueJeans |
+| 136 | Bluespark |
+| 137 | Bluestacks |
+| 138 | BMC software |
+| 139 | BNY Mellon |
+| 140 | Boeing |
+| 141 | Boldare |
+| 142 | Bonsai |
+| 143 | Booking.com |
+| 144 | Bosch |
+| 145 | Bottemline Technologies |
+| 146 | Bounce |
+| 147 | Bounteous |
+| 148 | Box |
+| 149 | Brahmastra Aerospace |
+| 150 | Brainstorm Force |
+| 151 | Brave Investments |
+| 152 | Bright Funds |
+| 153 | Brikl |
+| 154 | BriteCore |
+| 155 | Broadwing |
+| 156 | Browser stack |
+| 157 | Buffer |
+| 158 | Bugfender |
+| 159 | BukuWarung |
+| 160 | BuySellAds |
+| 161 | Byju's |
+| 162 | ByteDance |
+| 163 | Cabify |
+| 164 | Cadence |
+| 165 | Calamari |
+| 166 | Calibre |
+| 167 | CANCOM |
+| 168 | Canonical |
+| 169 | Capchase |
+| 170 | Capillary |
+| 171 | Capital One |
+| 172 | CarDekho |
+| 173 | Cards Against Humanity |
+| 174 | CareCru |
+| 175 | CareMessage |
+| 176 | CarWale |
+| 177 | CartoDB |
+| 178 | CartStack |
+| 179 | Cashfree |
+| 180 | Casumo |
+| 181 | Celigo |
+| 182 | Celsius |
+| 183 | Cerner |
+| 184 | ChainLink Labs |
+| 185 | Chargebee |
+| 186 | Chargify |
+| 187 | charity: water |
+| 188 | ChatGen |
+| 189 | Checkly |
+| 190 | Chef |
+| 191 | ChefsClub |
+| 192 | Chess |
+| 193 | Chroma |
+| 194 | Chronus |
+| 195 | Cimpress |
+| 196 | CircleCI |
+| 197 | Circonus |
+| 198 | Cisco |
+| 199 | Citadel |
+| 200 | Citadel Securities |
+| 201 | Citrix |
+| 202 | CivicActions |
+| 203 | Civo |
+| 204 | Classplus |
+| 205 | ClearGlass |
+| 206 | Cleartrip |
+| 207 | Clevertech |
+| 208 | ClickUp |
+| 209 | Clootrack |
+| 210 | Close |
+| 211 | CloudApp |
+| 212 | Cloudera |
+| 213 | Coalition Technologies |
+| 214 | Code Like a Girl |
+| 215 | Codea IT |
+| 216 | Codenation innovation labs |
+| 217 | CodingNinjas |
+| 218 | CodePen |
+| 219 | CodeSandbox |
+| 220 | Codeship |
+| 221 | Codestunts |
+| 222 | Cofense |
+| 223 | Cognizant |
+| 224 | CoinBase |
+| 225 | CoinDCX |
+| 226 | Coingape |
+| 227 | Coinswitch kuber |
+| 228 | Collabora |
+| 229 | Comet |
+| 230 | Commvault |
+| 231 | Compose |
+| 232 | Compucorp |
+| 233 | Connexa |
+| 234 | ConsenSys |
+| 235 | Consumer Financial Protection Bureau |
+| 236 | Continental |
+| 237 | Continu |
+| 238 | Contra |
+| 239 | Conversio |
+| 240 | Convert |
+| 241 | Coodesh |
+| 242 | Core-Apps |
+| 243 | CoreOS |
+| 244 | Corgibytes |
+| 245 | Coupang |
+| 246 | Coursera |
+| 247 | Cradlepoint |
+| 248 | Cred |
+| 249 | Credit Suisse |
+| 250 | Crestron |
+| 251 | Crowdstrike |
+| 252 | CrowdTangle |
+| 253 | CSS Corp |
+| 254 | Cueup |
+| 255 | cure.fit |
+| 256 | Customer.io |
+| 257 | Cuvette |
+| 258 | Cvent |
+| 259 | CVS Health |
+| 260 | CWT |
+| 261 | Cyber Whale |
+| 262 | DailyHunt |
+| 263 | Dalenys |
+| 264 | DappRadar |
+| 265 | DareCode |
+| 266 | DashboardHub |
+| 267 | Dashlane |
+| 268 | Data Science Brigade |
+| 269 | Data Science Dojo |
+| 270 | Databricks |
+| 271 | DataCamp |
+| 272 | Datadog |
+| 273 | Dataminr |
+| 274 | DataStax |
+| 275 | Datica |
+| 276 | DBS |
+| 277 | D. E. Shaw & Co. |
+| 278 | DealDash |
+| 279 | DealShare |
+| 280 | Delhivery |
+| 281 | Delighted |
+| 282 | Dell |
+| 283 | Designcode |
+| 284 | Deskpass |
+| 285 | Deutsche Bank |
+| 286 | Dev Spotlight |
+| 287 | Devsquad |
+| 288 | Dgraph |
+| 289 | Dhruva Space |
+| 290 | Dialpad |
+| 291 | DigitalOcean |
+| 292 | digit |
+| 293 | Digitise |
+| 294 | Directi |
+| 295 | Discovery inc |
+| 296 | Discord |
+| 297 | Discourse |
+| 298 | Disney |
+| 299 | DNSimple |
+| 300 | Docker |
+| 301 | Doist |
+| 302 | Donut App |
+| 303 | DoorDash |
+| 304 | DP World |
+| 305 | DRDO |
+| 306 | Dream11 |
+| 307 | DroneDeploy |
+| 308 | droom |
+| 309 | Dropbox |
+| 310 | Druva |
+| 311 | Drupal Jedi |
+| 312 | DuckDuckGo |
+| 313 | Dukaan |
+| 314 | Dunzo |
+| 315 | DuPont |
+| 316 | DynaPictures |
+| 317 | EA Games |
+| 318 | EarthOfDrones |
+| 319 | EatStreet |
+| 320 | EBSCO Information Services |
+| 321 | Eco-Mind |
+| 322 | Edgar |
+| 323 | Edgio |
+| 324 | Edify |
+| 325 | eFishery |
+| 326 | Elastic |
+| 327 | Emsisoft |
+| 328 | EngineYard (Support Team) |
+| 329 | Enjoei |
+| 330 | Enok |
+| 331 | Enfussion |
+| 332 | Entrision |
+| 333 | Envato |
+| 334 | Envestnet Yoodlee |
+| 335 | Envoy |
+| 336 | Epam |
+| 337 | Epic Games |
+| 338 | Epilocal |
+| 339 | Episource |
+| 340 | Equal Experts Portugal |
+| 341 | Ergeon |
+| 342 | Ericsson |
+| 343 | Estately |
+| 344 | Etch |
+| 345 | Etsy |
+| 346 | Eurofins |
+| 347 | EVELO |
+| 348 | Evil Martians |
+| 349 | Evrone |
+| 350 | EXL Healthcare |
+| 351 | Expedia |
+| 352 | ExportData |
+| 353 | EY |
+| 354 | Eyeo (Adblock Plus) |
+| 355 | EyeROV |
+| 356 | F5 |
+| 357 | FactorialHR |
+| 358 | factset |
+| 359 | Fairwinds |
+| 360 | Faithlife |
+| 361 | FamPay |
+| 362 | Fastly |
+| 363 | FATMAP |
+| 364 | Fauna |
+| 365 | Featurist |
+| 366 | Fetlife |
+| 367 | FFW Agency |
+| 368 | Fidelity investments |
+| 369 | Filament Group |
+| 370 | Findify |
+| 371 | FingerprintJS |
+| 372 | Fire Engine Red |
+| 373 | Fireball Labs |
+| 374 | FireEye inc |
+| 375 | Fischer Jordan |
+| 376 | fiserv |
+| 377 | Fiverr |
+| 378 | FivexL |
+| 379 | Flexera |
+| 380 | Flexport |
+| 381 | FlightAware |
+| 382 | Flip |
+| 383 | Flipkart |
+| 384 | Flowing |
+| 385 | FlyFin |
+| 386 | Fly.io |
+| 387 | FMX |
+| 388 | Focusnetworks |
+| 389 | fohandboh |
+| 390 | Formidable |
+| 391 | Formstack |
+| 392 | Four Kitchens |
+| 393 | Fractal |
+| 394 | Frappe Technologies |
+| 395 | Fraudio |
+| 396 | Freeagent |
+| 397 | FreeCharge |
+| 398 | Freeletics |
+| 399 | Freshworks |
+| 400 | Fuel Made |
+| 401 | FullFabric |
+| 402 | Functionize |
+| 403 | Furlenco |
+| 404 | fyle |
+| 405 | Gaggle |
+| 406 | Gartner |
+| 407 | Garuda Aerospace private Ltd |
+| 408 | Geckoboard |
+| 409 | GeeksForGeeks |
+| 410 | GE |
+| 411 | GE Healthcare |
+| 412 | General Assembly |
+| 413 | GEO Jobe |
+| 414 | Gerencianet |
+| 415 | GFT |
+| 416 | Ghost |
+| 417 | Ghost Foundation |
+| 418 | Ghost Inspector |
+| 419 | Giant |
+| 420 | Giant Swarm |
+| 421 | GigSalad |
+| 422 | Gitbook |
+| 423 | Github |
+| 424 | GitLab |
+| 425 | GitPrime |
+| 426 | Glenn Website Design |
+| 427 | Glitch |
+| 428 | Global Logic |
+| 429 | Gluware |
+| 430 | GoDaddy |
+| 431 | Godrej Aerospace |
+| 432 | GoDigit |
+| 433 | GoHiring |
+| 434 | Gojek |
+| 435 | Gojob |
+| 436 | Goldman Sachs |
+| 437 | Google |
+| 438 | Gorman Health Group |
+| 439 | GotSoccer |
+| 440 | Grab |
+| 441 | Grafana Labs |
+| 442 | Granicus |
+| 443 | Gravitont Rading |
+| 444 | Graylog |
+| 445 | Gremlin |
+| 446 | Gridium |
+| 447 | Grofers |
+| 448 | Groove |
+| 449 | Grou.ps |
+| 450 | Groupon |
+| 451 | Groww |
+| 452 | Grubhub |
+| 453 | Gruntwork |
+| 454 | GuideSmiths |
+| 455 | Hackerearth |
+| 456 | HackerRank |
+| 457 | Hack Reactor Remote |
+| 458 | Hanno |
+| 459 | Hanzo |
+| 460 | Happy Cog |
+| 461 | Harvest |
+| 462 | Hashedin |
+| 463 | Hashex |
+| 464 | HashiCorp |
+| 465 | HBO |
+| 466 | Headway |
+| 467 | HealthAsyst |
+| 468 | Healthfinch |
+| 469 | Healthify me |
+| 470 | Heap |
+| 471 | Heetch |
+| 472 | HE:labs |
+| 473 | Help Scout |
+| 474 | HERE |
+| 475 | Heroku |
+| 476 | Hireology |
+| 477 | HomeFlicWeGrow |
+| 478 | HomeValet |
+| 479 | Honeybadger |
+| 480 | Honeycomb |
+| 481 | Honeywell |
+| 482 | Hopper |
+| 483 | Hotjar |
+| 484 | Hotstar |
+| 485 | HP |
+| 486 | Hudl |
+| 487 | Hugo |
+| 488 | Human Made |
+| 489 | HUSL Digital |
+| 490 | Hypergiant |
+| 491 | Hyperion |
+| 492 | Hypothesis |
+| 493 | IBM |
+| 494 | iClinic |
+| 495 | IdeaForge |
+| 496 | IDoneThis |
+| 497 | iFit |
+| 498 | Igalia |
+| 499 | IHS Markit |
+| 500 | Imagine Learning |
+| 501 | Impala |
+| 502 | Impact Analytics |
+| 503 | Impira |
+| 504 | Implisense |
+| 505 | Incsub |
+| 506 | Indeed |
+| 507 | India Mart |
+| 508 | Infinite Red |
+| 509 | InfluxData |
+| 510 | Infor |
+| 511 | Informatica |
+| 512 | Inmobi |
+| 513 | Innovaccer |
+| 514 | Inpsyde |
+| 515 | InQuicker |
+| 516 | Inshorts |
+| 517 | Instamobile |
+| 518 | Instructure |
+| 519 | Intel |
+| 520 | Intellika |
+| 521 | Intellum |
+| 522 | Interactive Intelligence |
+| 523 | Intercom |
+| 524 | Interpersonal Frequency (I.F.) |
+| 525 | Intevity |
+| 526 | Intuit Inc. |
+| 527 | Intuition Machines, Inc |
+| 528 | InVision |
+| 529 | IOHK |
+| 530 | IOpipe |
+| 531 | iOS App Templates |
+| 532 | IPInfusion |
+| 533 | IPInfo |
+| 534 | IPS Group, Inc. |
+| 535 | IQVIA |
+| 536 | iQuanti |
+| 537 | iRonin |
+| 538 | ISRO |
+| 539 | Iterative |
+| 540 | iwantmyname |
+| 541 | Jackson River |
+| 542 | Jaguar |
+| 543 | Jaya Tech |
+| 544 | JBS Custom Software Solutions |
+| 545 | Jio |
+| 546 | Jitbit |
+| 547 | Jitera |
+| 548 | Jobsity |
+| 549 | Jolly Good Code |
+| 550 | journy.io |
+| 551 | Joyent |
+| 552 | JP Morgan |
+| 553 | Jumbotail |
+| 554 | Juniper networks |
+| 555 | Jupiter money |
+| 556 | JupiterOne |
+| 557 | Juspay |
+| 558 | Kaggle |
+| 559 | Kantar |
+| 560 | kea |
+| 561 | Keen IO |
+| 562 | Kentik |
+| 563 | Kesari bharat |
+| 564 | Keyvalue |
+| 565 | Khatabook |
+| 566 | Khan Academy |
+| 567 | khoros |
+| 568 | KickBack Rewards Systems |
+| 569 | Kinsta |
+| 570 | Kiprosh |
+| 571 | Kissmetrics |
+| 572 | KLA Tencor |
+| 573 | Klaviyo |
+| 574 | Knack |
+| 575 | Koch |
+| 576 | Kodify |
+| 577 | Koding |
+| 578 | Komoot |
+| 579 | Kona |
+| 580 | Konkurenta |
+| 581 | Kraken |
+| 582 | Kuali |
+| 583 | Labelbox |
+| 584 | Lambda School |
+| 585 | Lambert Labs |
+| 586 | Land rover |
+| 587 | LaterPay |
+| 588 | Leadership Success |
+| 589 | Leadfeeder |
+| 590 | LeadIQ |
+| 591 | Leap Finance |
+| 592 | Lenskart |
+| 593 | Let's Encrypt |
+| 594 | Licious |
+| 595 | Lifen |
+| 596 | Lifetime Value Company |
+| 597 | Lightbend |
+| 598 | Lightspeed |
+| 599 | Linaro |
+| 600 | Lincoln Loop |
+| 601 | LINE Plus Corporation |
+| 602 | Link11 |
+| 603 | LinkedIn |
+| 604 | Linux Foundation |
+| 605 | LionSher |
+| 606 | Litmus |
+| 607 | LivePerson |
+| 608 | Loadsys Web Strategies |
+| 609 | Localistico |
+| 610 | LogicFruit |
+| 611 | Logicmonitor |
+| 612 | LogDNA |
+| 613 | Lowe's companies, inc |
+| 614 | Lullabot |
+| 615 | Luxoft |
+| 616 | Lyseon Tech |
+| 617 | Lytx |
+| 618 | madewithlove |
+| 619 | Madisoft |
+| 620 | Magicpin |
+| 621 | MailerLite |
+| 622 | MakeMyTrip |
+| 623 | Manifold |
+| 624 | Mapbox |
+| 625 | Marco Polo |
+| 626 | Marketade |
+| 627 | MarsBased |
+| 628 | Massive Pixel Creation |
+| 629 | Mastercard |
+| 630 | Mastery |
+| 631 | Mathworks |
+| 632 | Maxicus |
+| 633 | Mayvue |
+| 634 | McKinsey |
+| 635 | Mediacurrent |
+| 636 | Media.net |
+| 637 | Mediavine |
+| 638 | Medium |
+| 639 | Meesho |
+| 640 | Memberful |
+| 641 | Memory |
+| 642 | Mercari |
+| 643 | Merico |
+| 644 | MeridianLink |
+| 645 | Meta |
+| 646 | MetaLab |
+| 647 | MetaMask |
+| 648 | MeteorOps |
+| 649 | Microsoft |
+| 650 | Micron |
+| 651 | Mindful |
+| 652 | MindTickle |
+| 653 | Mixcloud |
+| 654 | Mixmax |
+| 655 | MixRank |
+| 656 | Mobile Jazz |
+| 657 | MobiKwik |
+| 658 | Modern Health |
+| 659 | Modern Tribe |
+| 660 | Modsquad |
+| 661 | Molteo |
+| 662 | MongoDB |
+| 663 | Monthly |
+| 664 | Morgan Stanley |
+| 665 | Mount talent |
+| 666 | Mozilla |
+| 667 | MPL |
+| 668 | mtc. |
+| 669 | MTX |
+| 670 | Muck Rack |
+| 671 | Mux |
+| 672 | Mycelium |
+| 673 | Myntra |
+| 674 | MySQL |
+| 675 | Nagarro |
+| 676 | NASDAQ |
+| 677 | National instruments Corporation |
+| 678 | Nationwide |
+| 679 | NatWest Group |
+| 680 | navi |
+| 681 | NCR Corporation |
+| 682 | NetApp |
+| 683 | Netcracker |
+| 684 | Netguru |
+| 685 | Netmeds |
+| 686 | Netris |
+| 687 | Netsparker |
+| 688 | Nettl Edinburgh |
+| 689 | New Context |
+| 690 | NEXT |
+| 691 | Nike |
+| 692 | Ninjacart |
+| 693 | No Code No Problem |
+| 694 | NodeSource |
+| 695 | Nokia |
+| 696 | NoRedInk |
+| 697 | Novoda |
+| 698 | npm |
+| 699 | Nuage |
+| 700 | Nuna |
+| 701 | nurture.farm |
+| 702 | Nutanix |
+| 703 | Nvidia |
+| 704 | Nykaa |
+| 705 | O'Reilly Media |
+| 706 | O'Reilly Online Learning |
+| 707 | Observe.ai |
+| 708 | Obvious |
+| 709 | Ocient |
+| 710 | Ocrolus |
+| 711 | Octopus Deploy |
+| 712 | Oddball |
+| 713 | Okta |
+| 714 | Ola |
+| 715 | Olark |
+| 716 | Olist |
+| 717 | Ollie |
+| 718 | Ollie Order |
+| 719 | Olo |
+| 720 | Olx |
+| 721 | OmbuLabs |
+| 722 | OmniTI |
+| 723 | Onna |
+| 724 | OnTheGoSystems |
+| 725 | Opencity Labs |
+| 726 | OpenCraft |
+| 727 | OpenText |
+| 728 | OpenZeppelin |
+| 729 | Optoro |
+| 730 | Optum |
+| 731 | Optym |
+| 732 | Oracle |
+| 733 | Ordermentum |
+| 734 | Our-Hometown Inc. |
+| 735 | OutsourcingDev |
+| 736 | Over |
+| 737 | OYO |
+| 738 | Packlink |
+| 739 | Pagepro |
+| 740 | PagerDuty |
+| 741 | Paktor |
+| 742 | Palantir.net |
+| 743 | Palo Alto Networks |
+| 744 | Panther Labs |
+| 745 | Parabol |
+| 746 | Park Assist |
+| 747 | Park+ |
+| 748 | Parsely |
+| 749 | Particular Software |
+| 750 | Pathable |
+| 751 | Payfully |
+| 752 | Paylocity |
+| 753 | Paypal |
+| 754 | PayScale |
+| 755 | Paytm |
+| 756 | Paytm Labs |
+| 757 | PayU |
+| 758 | Peachworks |
+| 759 | PeopleStrong |
+| 760 | PeopleDoc |
+| 761 | Percona |
+| 762 | persistent systems |
+| 763 | Pex |
+| 764 | PharmEasy |
+| 765 | Phillips |
+| 766 | Phonepe |
+| 767 | Plai |
+| 768 | Platform Builders |
+| 769 | Platform.sh |
+| 770 | Playment |
+| 771 | Pleo |
+| 772 | Plex |
+| 773 | PNC Financial Services |
+| 774 | Polygon |
+| 775 | Postman |
+| 776 | PowerSchool |
+| 777 | Practo |
+| 778 | Pragma |
+| 779 | Precision Nutrition |
+| 780 | Predict Mobile |
+| 781 | Prelude |
+| 782 | Prezi |
+| 783 | Prezly |
+| 784 | PreviousNext |
+| 785 | PricewaterhouseCoopers (PwC) |
+| 786 | priceline |
+| 787 | Primer |
+| 788 | Principal |
+| 789 | Prisma |
+| 790 | PrivacyCloud |
+| 791 | Privado.ai |
+| 792 | Procenge Tecnologia |
+| 793 | Procurify |
+| 794 | Prodapt |
+| 795 | Progress Engine |
+| 796 | Prominent Edge |
+| 797 | Protegrity |
+| 798 | Providence Healthcare |
+| 799 | Proximity Labs |
+| 800 | Publicis Sapient |
+| 801 | PubMatic |
+| 802 | Puppet |
+| 803 | Quaderno |
+| 804 | Qualcomm |
+| 805 | Quantify |
+| 806 | QuestDB |
+| 807 | Quora |
+| 808 | Rackspace |
+| 809 | Raft |
+| 810 | Rainforest QA |
+| 811 | Rakuten Travel Xchange |
+| 812 | Ramp |
+| 813 | Razorpay |
+| 814 | Reaction Commerce |
+| 815 | ReactiveOps, Inc. |
+| 816 | real.digital |
+| 817 | RealtimeCRM |
+| 818 | RebelMouse |
+| 819 | Reboot Studio |
+| 820 | ReCharge |
+| 821 | Recurly |
+| 822 | Red Hat |
+| 823 | Reddit |
+| 824 | RedMonk |
+| 825 | Redox |
+| 826 | Reducer |
+| 827 | reinteractive |
+| 828 | Reelo |
+| 829 | Remote Garage |
+| 830 | RemoteBase |
+| 831 | RenoFi |
+| 832 | Replit |
+| 833 | Reprise |
+| 834 | Research Square |
+| 835 | Revolut |
+| 836 | Rivigo |
+| 837 | Roadtrippers |
+| 838 | Rocket.Chat |
+| 839 | Rocket Companies |
+| 840 | Rockstar Games |
+| 841 | rtCamp |
+| 842 | Rubrik |
+| 843 | Saavan |
+| 844 | Sabre corporation |
+| 845 | Safeguard Global |
+| 846 | Salesforce |
+| 847 | Samsung |
+| 848 | Sandhills Development |
+| 849 | SAP |
+| 850 | Scalac |
+| 851 | Scandit |
+| 852 | Scopic Software |
+| 853 | ScrapingBee |
+| 854 | Scrapinghub |
+| 855 | ScyllaDB |
+| 856 | Seaplane |
+| 857 | SecurityScorecard |
+| 858 | Seeq |
+| 859 | Semaphore |
+| 860 | SendinBlue |
+| 861 | Sendwave |
+| 862 | SerpApi |
+| 863 | Server Density |
+| 864 | ServMask |
+| 865 | ServiceNow |
+| 866 | Session |
+| 867 | Shaadi.com |
+| 868 | ShareChat |
+| 869 | Shareup |
+| 870 | Shell |
+| 871 | Shippabo |
+| 872 | Shipsy |
+| 873 | Shogun |
+| 874 | Shopee |
+| 875 | Shopify |
+| 876 | Siemens |
+| 877 | Siemens Healthineers |
+| 878 | Sigma Defense |
+| 879 | Sigmoid |
+| 880 | SignEasy |
+| 881 | Silverfin |
+| 882 | simplabs |
+| 883 | SimpleTexting |
+| 884 | Six to Start |
+| 885 | Skillcrush |
+| 886 | Skillshare |
+| 887 | SkillVertex |
+| 888 | Skyrocket Ventures |
+| 889 | Skyroot Aerospace |
+| 890 | Sling Media |
+| 891 | SmartCash |
+| 892 | Smile.io |
+| 893 | Smith Detection |
+| 894 | Smmile Digital |
+| 895 | SmugMug |
+| 896 | Socket Supply Co. |
+| 897 | SoftwareMill |
+| 898 | Sommo |
+| 899 | Soostone |
+| 900 | Soshace |
+| 901 | Spinny |
+| 902 | Spoqa |
+| 903 | Spotify |
+| 904 | Spreaker |
+| 905 | Spreedly |
+| 906 | Sprinklr |
+| 907 | Spruce |
+| 908 | Squadstack |
+| 909 | Stack Exchange |
+| 910 | Stairlin |
+| 911 | Status |
+| 912 | Stencil |
+| 913 | Sticker Mule |
+| 914 | Stitch Fix |
+| 915 | StoneCo |
+| 916 | StormX |
+| 917 | Strapi |
+| 918 | StreamNative |
+| 919 | Stripe |
+| 920 | StudySoup |
+| 921 | Superplayer & Co |
+| 922 | Surevine |
+| 923 | SUSE |
+| 924 | Sutherland CloudSource |
+| 925 | SweetRush |
+| 926 | Swiggy |
+| 927 | Swimlane |
+| 928 | Sysdig️ |
+| 929 | Synopsys |
+| 930 | Tag1 Consulting |
+| 931 | Taledo |
+| 932 | Taplytics |
+| 933 | Target |
+| 934 | Taskade |
+| 935 | TATA Advanced Sysytems Ltd |
+| 936 | TatvaSoft |
+| 937 | TaxJar |
+| 938 | TE Connectivity |
+| 939 | Teamflow |
+| 940 | TeamSnap |
+| 941 | TeamUltra |
+| 942 | TED |
+| 943 | TEK Systems |
+| 944 | Tekion corp |
+| 945 | Teleport |
+| 946 | Telerik |
+| 947 | Telestax |
+| 948 | Tenable |
+| 949 | Teradata |
+| 950 | Teravision Technologies |
+| 951 | Tesla |
+| 952 | Test Double |
+| 953 | TestGorilla |
+| 954 | texas instruments |
+| 955 | The Crafters Lab |
+| 956 | The Grid |
+| 957 | The Publisher Desk |
+| 958 | The Scale Factory |
+| 959 | The Wirecutter |
+| 960 | TheoremOne |
+| 961 | Thinkful |
+| 962 | Third Iron |
+| 963 | Thorn |
+| 964 | ThoughtSpot |
+| 965 | thoughtWorks |
+| 966 | TimeSpot |
+| 967 | Tipe |
+| 968 | Toast |
+| 969 | toggl |
+| 970 | Topcoder |
+| 971 | Toptal |
+| 972 | Tower |
+| 973 | tower research capital |
+| 974 | Tractionboard |
+| 975 | Transition Technologies - Advanced Solutions |
+| 976 | Transloadit |
+| 977 | Travis |
+| 978 | Travis CI |
+| 979 | Treebo Hotels |
+| 980 | Treehouse |
+| 981 | Trello |
+| 982 | Truelogic |
+| 983 | TrussWorks |
+| 984 | Tuft & Needle |
+| 985 | Turing |
+| 986 | turvo |
+| 987 | Twilio |
+| 988 | Two |
+| 989 | Twitter |
+| 990 | Uber |
+| 991 | Ubisoft |
+| 992 | Udaan |
+| 993 | Udacity |
+| 994 | Uhuru |
+| 995 | unacadamy |
+| 996 | Uncapped |
+| 997 | Unicommerce |
+| 998 | Unisys |
+| 999 | Upgrad |
+| 1000 | Upstox |
+| 1001 | Upwork Pro |
+| 1002 | Upworthy |
+| 1003 | Urban company |
+| 1004 | USAA |
+| 1005 | Ushahidi |
+| 1006 | uShip |
+| 1007 | Valimail |
+| 1008 | Valuefy |
+| 1009 | Varnish Software |
+| 1010 | vast limits |
+| 1011 | Vercel |
+| 1012 | Veryfi |
+| 1013 | Viasat |
+| 1014 | Vicara |
+| 1015 | Viperdev |
+| 1016 | Virta Health |
+| 1017 | Visa |
+| 1018 | VMware |
+| 1019 | Vogo |
+| 1020 | voiio |
+| 1021 | Vox Media (Product Team) |
+| 1022 | Voxy |
+| 1023 | VSHN |
+| 1024 | WalletHub |
+| 1025 | Walmart |
+| 1026 | Warner Bros. |
+| 1027 | WebDevStudios |
+| 1028 | WebFX |
+| 1029 | Webikon |
+| 1030 | Webrunners |
+| 1031 | Wells Fargo |
+| 1032 | wemake.services |
+| 1033 | WeMakeMVP |
+| 1034 | Western Digital |
+| 1035 | Whatfix |
+| 1036 | Whitecap SEO |
+| 1037 | Whitespectre |
+| 1038 | WikiHow |
+| 1039 | Wikimedia Foundation |
+| 1040 | Wildbit |
+| 1041 | Wizeline |
+| 1042 | Wolfram |
+| 1043 | Wolverine Trading |
+| 1044 | Wombat Security Technologies |
+| 1045 | Wooqer |
+| 1046 | worldQuant |
+| 1047 | WP-Media |
+| 1048 | Xiaomi |
+| 1049 | Xicom Technologies |
+| 1050 | X-Team |
+| 1051 | Xapo |
+| 1052 | XP Inc |
+| 1053 | Yahoo |
+| 1054 | Yandex |
+| 1055 | YAZIO |
+| 1056 | yellow.ai |
+| 1057 | Yodo1 |
+| 1058 | Yonder |
+| 1059 | You are launched |
+| 1060 | You Need A Budget |
+| 1061 | YouCanBook.me Ltd |
+| 1062 | yugabyte |
+| 1063 | Yulu Bikes |
+| 1064 | ZAMP |
+| 1065 | Zapier |
+| 1066 | Zeit.io |
+| 1067 | ZenRows |
+| 1068 | zerodha |
+| 1069 | Zeta |
+| 1070 | Zignaly.com |
+| 1071 | Zip.co |
+| 1072 | ZivaMe |
+| 1073 | zoho |
+| 1074 | Zolar |
+| 1075 | Zomato |
+| 1076 | ZoomCar |
+| 1077 | ZS |
+| 1078 | Zup |
+
+
+<br><br><br><br> 
 <br><br><br><br>
