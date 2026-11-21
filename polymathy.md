@@ -1614,6 +1614,488 @@ Stance → Footwork → Entry → Strike (Punch / Kick / Knee / Elbow) → Defen
 Punching · Kicking · Kickboxing · Elbow/Knee · Grappling · Throws · Submission · Wrestling · Clinch · Weapon · Military · Hybrid · Traditional · Folk · Ancient
  
 <br><br><br><br>
+ 
+<h1 align="center">The Strength, Resilience, and Strategic Humour Handbook.</h1>
+
+<br><br>
+
+## Introduction
+
+This handbook is a structured study guide for anyone who wants to understand physical strength, mental strength, and humour as a tactical skill. It is written for athletes, coaches, leaders, students, and everyday learners who want clear principles rather than rigid routines.
+
+The guide treats strength as a broad human capability. Physical strength is the ability to produce force, move well, recover, and remain durable. Mental strength is the ability to stay disciplined, regulate emotion, make sound judgements under pressure, and continue when progress is difficult. Humour is treated here as a tactical weapon in the sense of communication and perception: it can reduce tension, build trust, expose absurdity, reframe setbacks, and help a person or team regain balance. It is not treated as mockery, distraction, or a substitute for competence.
+
+The document is organised into sections, resource tables, reading paths, and flowcharts. It is intended to be deployment-ready for a website: clear in language, structured in flow, and consistent in theme.
+
+<br>
+
+## 1. Philosophical Premise
+
+### 1.1 Strength Is Relational
+
+Strength is not only a number on a barbell. It is the relationship between a person, a task, an environment, and a purpose. A person may be strong in one context and weak in another. A powerful bodybuilder may lack mobility. A disciplined endurance athlete may lack explosive power. A calm strategist may lack physical conditioning. The study of strength therefore requires multiple lenses.
+
+### 1.2 Mental Strength Is Not Merely Endurance
+
+Mental strength is often described as grit, toughness, or resilience. A philosophical view adds judgement. It is not enough to endure. One must know what is worth enduring. Discipline without direction becomes stubbornness. Resilience without recovery becomes burnout. Mental strength therefore includes self-awareness, planning, emotional regulation, and the ability to stop when stopping is wise.
+
+### 1.3 Humour Is a Tactical Skill
+
+Humour is a social and perceptual tool. In a tactical sense, it can:
+
+- lower tension before conflict escalates;
+- build cohesion among team members;
+- reframe failure as information rather than identity;
+- signal confidence and composure;
+- expose contradictions without direct aggression;
+- preserve morale during difficult work.
+
+However, humour is only tactical when it is timely, ethical, and proportionate. Cruel humour damages trust. Constant joking can avoid serious issues. The tactical use of humour requires judgement, timing, and restraint.
+
+### 1.4 Resources Are Lenses, Not Idols
+
+The figures and books in this guide are not meant to be copied blindly. They are lenses. Each offers a way to see training, movement, resilience, strategy, or communication. The mature learner compares principles, tests them in context, and discards what does not serve the objective.
+
+<br>
+
+## 2. How to Use This Guide
+
+Use this guide in four ways:
+
+1. **Study the domains.** Learn the main contributions of each resource.
+2. **Compare principles.** Notice where resources agree and where they conflict.
+3. **Resolve conflicts by context.** Low-volume training and high-volume endurance training can both be valid, but not for the same person at the same time for the same goal.
+4. **Integrate humour ethically.** Treat humour as a communication skill that supports strength and strategy, not as a way to avoid responsibility.
+
+The guide is not medical advice. Readers with injuries, illness, or unusual training conditions should consult qualified professionals.
+
+<br>
+
+## 3. The Three Pillars of This Guide
+
+| Pillar | Aim | Main Question | Output |
+|---|---|---|---|
+| Physical Strength | Build capability, durability, and movement quality | What can the body do, and how well can it recover? | Force, mobility, endurance, power, health |
+| Mental Strength | Build discipline, resilience, and judgement | What will I do when effort becomes uncomfortable? | Consistency, emotional control, persistence |
+| Tactical Humour | Improve morale, communication, and perception | How can humour serve the objective without causing harm? | Tension reduction, reframing, cohesion, timing |
+
+```mermaid
+flowchart TD
+    A[Physical Strength] --> D[Capability]
+    B[Mental Strength] --> E[Resilience]
+    C[Tactical Humour] --> F[Judgement and Communication]
+    D --> G[Balanced Performance]
+    E --> G
+    F --> G
+    G --> H[Fitness]
+    G --> I[Work]
+    G --> J[Leadership]
+    G --> K[Learning]
+```
+
+<br>
+
+## 4. Resource Library by Training Domain
+
+### 4.1 Strength and Muscle Building
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Mike Mentzer | High-Intensity Training, low volume, maximum intensity | Efficient strength and muscle growth | Very demanding; recovery must be protected |
+| Arthur Jones | Nautilus machines and modern High-Intensity Training philosophy | Machine-based training and exercise design | Not a complete system for all athletes |
+| Dorian Yates | Refined High-Intensity Training into the Blood and Guts system | Intense bodybuilding preparation | High recovery demand; not for beginners |
+| Reg Park | Heavy compound lifting | Foundational strength and mass | Requires good technique and progression |
+| Arnold Schwarzenegger | High-volume bodybuilding and progressive overload | Muscle growth and work capacity | Volume must match recovery and experience |
+| Pavel Tsatsouline | Neural strength, kettlebells, Grease the Groove | Strength skill practice and tension control | Needs careful programming to avoid overuse |
+| Charles Poliquin | Elite athlete programming and periodisation | Structured athletic strength work | Some methods are advanced and individualised |
+| Louie Simmons | Conjugate Method for maximal strength | Maximal strength and powerlifting | Complex system; requires coaching knowledge |
+
+### 4.2 Martial Arts and Functional Performance
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Bruce Lee | Speed, explosiveness, functional strength, adaptability, efficiency | Functional athleticism and martial movement | Philosophy must be paired with structured practice |
+| Masutatsu Oyama | Extreme conditioning and full-contact karate | Toughness and combat conditioning | Extreme methods require high recovery and supervision |
+| Jigoro Kano | Scientific physical education through grappling | Judo, balance, leverage, and safe practice | Competitive application needs modern coaching |
+| Morihei Ueshiba | Coordination, balance, and internal power | Aikido and body coordination | Internal power claims should be tested carefully |
+| Georges St-Pierre | Modern athletic training integrating wrestling, gymnastics, and mobility | Mixed martial arts athletic preparation | Requires a team and individualised planning |
+| Fedor Emelianenko | Functional strength, endurance, and efficient movement | Combat efficiency and conditioning | Style is difficult to copy directly |
+
+### 4.3 Mobility and Athleticism
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Ido Portal | Movement culture combining gymnastics, martial arts, and mobility | General movement variety and body control | Needs progressive loading and patience |
+| Kelly Starrett | Mobility, joint health, and performance longevity | Self-maintenance and movement quality | Not a replacement for medical diagnosis |
+| Gray Cook | Functional Movement Screen | Screening and movement assessment | Screening is not a complete training system |
+| Ben Patrick | Knee resilience, lower-body mobility, injury prevention | Knee health and lower-body durability | Must be adapted to individual history |
+
+### 4.4 Endurance and Mental Toughness
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| David Goggins | Mental resilience, ultra-endurance, discipline | Building persistence and accountability | Extreme challenges can harm recovery if copied poorly |
+| Rich Froning Jr. | Functional fitness and work capacity | High-work-capacity training | Requires excellent recovery and technique |
+| Emil Zátopek | Interval training pioneer | Endurance interval methods | High intensity must be periodised |
+| Eliud Kipchoge | Running efficiency and disciplined endurance | Efficient endurance training | Elite methods are not beginner methods |
+
+### 4.5 Olympic Weightlifting and Explosive Power
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Yuri Verkhoshansky | Plyometrics and shock method | Explosive power development | High impact; needs qualified coaching |
+| Mel Siff | Author of Supertraining | Sports science and training theory | Dense material; requires careful study |
+| Anatoliy Bondarchuk | Transfer of training and periodisation | Matching training to sport performance | Needs expert programming |
+| Tudor Bompa | Modern periodisation theory | Planning training cycles | Theory must be adapted to real life |
+
+### 4.6 Old-School Physical Culture
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Eugen Sandow | Classical physique and physical culture | Foundational physique and showmanship | Historical methods need modern safety review |
+| George Hackenschmidt | Strength, wrestling, and holistic fitness | General strength and grappling history | Historical context matters |
+| Thomas Inch | Grip strength legend | Grip and hand strength study | Grip work must be progressed gradually |
+| Joseph Pilates | Core control, posture, and mobility | Core stability and controlled movement | Not a complete strength system by itself |
+
+### 4.7 Sports Science and Coaching
+
+| Resource | Main Contribution | Best Used For | Caution |
+|---|---|---|---|
+| Yuri Verkhoshansky and Mel Siff | Supertraining, a major performance text | Advanced training theory | Academic density; study slowly |
+| Dan John | Practical strength programming | Simple, sustainable strength plans | Simplicity still requires progression |
+| Mark Rippetoe | Fundamental barbell training | Basic strength and technique | Not tailored to every sport or injury history |
+| Stuart McGill | Core stability and back health | Spine-friendly core training | Medical issues need clinical care |
+| Andrew Huberman | Evidence-based protocols for recovery, sleep, and performance | Recovery and nervous system awareness | Protocols should be applied critically, not dogmatically |
+
+<br>
+
+## 5. Premium Physical Training Library
+
+| Book | Primary Theme | Use in Study |
+|---|---|---|
+| Heavy Duty | High-Intensity Training and efficient bodybuilding | Learn intensity, recovery, and low-volume principles |
+| The Tao of Jeet Kune Do | Adaptability, martial philosophy, and functional movement | Learn flexibility of method and practical movement |
+| Supertraining | Advanced sports science and training theory | Build a deep theoretical foundation |
+| Science and Practice of Strength Training | Strength science and programming | Understand strength development systematically |
+| Starting Strength | Fundamental barbell training | Learn basic compound lifting principles |
+| Ultimate MMA Conditioning | Conditioning for combat athletes | Study work capacity and combat preparation |
+| Becoming a Supple Leopard | Mobility, joint health, and movement maintenance | Build self-maintenance and mobility habits |
+| Ultimate Back Fitness and Performance | Back health and core stability | Learn durable core and spine training |
+
+Together, these books cover maximal strength, hypertrophy, athletic power, mobility, combat performance, endurance, injury prevention, and evidence-based coaching.
+
+<br>
+
+## 6. Four-Pillar Performance Philosophy
+
+The four-pillar synthesis combines efficient strength, adaptable movement, disciplined resilience, and strategic judgement. Humour is added as a tactical communication layer that supports these pillars.
+
+| Person | Primary Focus | Best Attribute | Main Risk If Misused |
+|---|---|---|---|
+| Mike Mentzer | Muscle and strength | Maximum efficiency | Under-training if volume is reduced without enough intensity |
+| Bruce Lee | Athleticism and movement | Functional performance | Endless experimentation without a stable plan |
+| David Goggins | Mind and endurance | Mental resilience | Extreme load without adequate recovery |
+| Sun Tzu | Strategy and preparation | Strategic judgement | Over-caution or excessive calculation |
+| Tactical Humour | Communication and morale | Timing and perspective | Cruelty, avoidance, or poor timing |
+
+### 6.1 Mike Mentzer: Maximum Muscle Efficiency
+
+**Core Philosophy**
+
+- Train less, recover more.
+- Apply maximum effort to working sets.
+- Use progressive overload as a primary driver.
+- Treat recovery as part of training.
+
+**Focus**
+
+- Strength
+- Muscle hypertrophy
+- Training efficiency
+- Scientific reasoning
+
+**Famous Principle**
+
+> “Intensity, not volume.”
+
+**Ideal For**
+
+- Bodybuilding
+- Strength development
+- Busy professionals who need efficient workouts
+
+### 6.2 Bruce Lee: Functional Athleticism
+
+**Core Philosophy**
+
+- Adaptability over rigid systems.
+- Build a body that performs, not only one that looks impressive.
+- Master speed, coordination, balance, and mobility.
+
+**Focus**
+
+- Speed
+- Explosive power
+- Flexibility
+- Martial arts
+- Functional strength
+- Bodyweight mastery
+
+**Famous Principle**
+
+> “Absorb what is useful, discard what is useless.”
+
+**Ideal For**
+
+- Martial artists
+- Athletes
+- Functional fitness enthusiasts
+
+### 6.3 David Goggins: Mental Toughness
+
+**Core Philosophy**
+
+- The mind often gives up before the body.
+- Seek appropriate discomfort to expand limits.
+- Build discipline rather than relying on motivation.
+
+**Focus**
+
+- Mental resilience
+- Endurance
+- Discipline
+- Accountability
+- Long-distance running
+- Ultra-endurance events
+
+**Famous Principle**
+
+> “Stay hard.”
+
+**Ideal For**
+
+- Endurance athletes
+- Military preparation
+- Personal resilience
+- Building discipline
+
+### 6.4 Sun Tzu: Strategic Judgement
+
+**Core Philosophy**
+
+- Plan before acting.
+- Choose high-impact actions over constant activity.
+- Conserve energy for what matters.
+- Know your strengths and limitations.
+
+**Focus**
+
+- Strategy
+- Preparation
+- Resource management
+- Timing
+- Deception and perception in conflict
+- Calm judgement
+
+**Famous Principle**
+
+> “Win through preparation, not constant struggle.”
+
+**Ideal For**
+
+- Leaders
+- Competitors
+- Planners
+- Anyone facing conflict or limited resources
+
+### 6.5 How the Pillars Fit Together
+
+```mermaid
+flowchart LR
+    M[Mentzer - Efficient Strength] --> P[Performance Philosophy]
+    L[Bruce Lee - Adaptable Movement] --> P
+    G[Goggins - Disciplined Resilience] --> P
+    S[Sun Tzu - Strategic Judgement] --> P
+    H[Humour - Tactical Communication] --> P
+    P --> O[Train with purpose]
+    P --> Q[Move with versatility]
+    P --> R[Persist with discipline]
+    P --> T[Act with strategy]
+    P --> U[Communicate with timing]
+```
+
+<br>
+
+## 7. Unified Operating System
+
+A concise operating system inspired by the four pillars and tactical humour is:
+
+> Train intensely. Move efficiently. Endure deliberately. Think strategically. Communicate wisely.
+
+| Principle | Source | Meaning | Practical Application |
+|---|---|---|---|
+| Train with purpose | Mentzer | Every session should have a clear reason | Use progressive overload and planned recovery |
+| Move with versatility | Bruce Lee | Strength must translate into real movement | Include mobility, coordination, speed, and balance |
+| Persist with discipline | Goggins | Follow through when motivation fades | Keep promises and track commitments |
+| Act with strategy | Sun Tzu | Prepare, conserve, and choose high-impact action | Plan before acting and avoid unnecessary conflict |
+| Use humour with timing | Tactical Humour | Humour should serve morale and perception | Reframe setbacks, reduce tension, and build trust |
+
+<br>
+
+## 8. Resolving Contradictions
+
+The source philosophies do not always align. A deployment-ready guide must state the tensions clearly and resolve them through context.
+
+| Tension | Apparent Contradiction | Resolution |
+|---|---|---|
+| Mentzer versus Goggins | Mentzer favours low-volume, high-intensity training; Goggins is known for extreme endurance load | Match dose to objective. Use low-volume strength work for efficiency and high-volume endurance only when the goal demands it and recovery supports it |
+| Bruce Lee versus structured systems | Bruce Lee encouraged experimentation; structured systems require stable plans | Keep principles stable and methods flexible. Test, measure, and retain what works |
+| Sun Tzu versus extreme effort | Sun Tzu advises conserving resources; Goggins-style training may use extreme effort | Extremes are justified only when the objective is important and the cost is understood. Do not stack extremes without recovery and purpose |
+| Humour versus seriousness | Humour can seem to reduce seriousness; tactical performance requires focus | Humour is a support tool, not an escape. Use it to regulate tension, not to avoid responsibility |
+| Strength versus health | Heavy training builds strength but can challenge joints and recovery | Include mobility, sleep, nutrition, and deloading. Strength should serve long-term capability |
+
+<br>
+
+## 9. Humour as a Tactical Weapon
+
+### 9.1 Definition
+
+Tactical humour is the deliberate use of wit, irony, playfulness, or comic perspective to influence morale, communication, tension, or perception in a way that supports the objective. It is not random joking. It is context-sensitive.
+
+### 9.2 Functions of Tactical Humour
+
+| Function | How It Works | Example Use | Guardrail |
+|---|---|---|---|
+| Tension reduction | Lowers emotional heat before conflict | A light comment before a difficult meeting | Do not dismiss a serious concern |
+| Reframing | Changes how a setback is interpreted | Treating a failed attempt as useful information | Do not deny real loss or harm |
+| Team cohesion | Builds shared identity through inside humour | A team ritual or harmless joke | Avoid exclusion or humiliation |
+| Confidence signalling | Shows composure under pressure | Calm wit during a crisis | Do not appear careless |
+| De-escalation | Redirects aggression without direct confrontation | Gentle irony to expose absurdity | Avoid sarcasm that inflames |
+| Resilience | Makes hardship more bearable | Dark humour among willing peers | Check consent and context |
+
+### 9.3 Risks and Ethical Boundaries
+
+| Risk | Why It Matters | Prevention |
+|---|---|---|
+| Cruelty | Humour that targets people damages trust | Avoid jokes about identity, dignity, or vulnerability |
+| Poor timing | A joke during grief or danger can seem indifferent | Read the room and prioritise care |
+| Avoidance | Constant joking can hide real problems | Use humour to support truth, not replace it |
+| Status abuse | Humour can be used to dominate others | Keep power differences in mind |
+| Misreading | Humour does not travel well across cultures | Ask, observe, and adapt |
+
+### 9.4 Study Resources for Tactical Humour
+
+| Resource | Contribution to Tactical Humour |
+|---|---|
+| The Art of War | Timing, morale, deception, restraint, and strategic perception |
+| Tao of Jeet Kune Do | Adaptability, directness, and economy of action |
+| Striking Thoughts | Aphoristic wisdom, perspective, and playful reflection |
+| The Book of Five Rings | Rhythm, timing, attitude, and psychological posture |
+| The Thirty-Six Stratagems | Indirect action, surprise, and perception management |
+| On War | Friction, morale, leadership, and the human side of conflict |
+| The Prince | Realism, audience awareness, and communication strategy |
+| The Psychology of Humor | A supplementary study of how humour works psychologically |
+| The Humor Code | A supplementary study of humour across cultures and contexts |
+| Thank You for Arguing | A supplementary study of rhetoric, persuasion, and timing |
+
+### 9.5 The Tactical Humour Loop
+
+```mermaid
+flowchart TD
+    A[Observe the situation] --> B[Check purpose and risk]
+    B --> C[Choose timing]
+    C --> D[Deliver with restraint]
+    D --> E[Observe the response]
+    E --> F[Adapt or stop]
+    F --> A
+```
+
+<br>
+
+## 10. Reading Order and Study Plan
+
+### 10.1 Core Reading Path
+
+| Phase | Theme | Books |
+|---|---|---|
+| Phase 1 | Physical Foundation | Heavy Duty; The Art of Expressing the Human Body |
+| Phase 2 | Philosophy and Adaptability | Tao of Jeet Kune Do; Striking Thoughts |
+| Phase 3 | Mental Resilience | Can’t Hurt Me; Never Finished |
+| Phase 4 | Strategy | The Art of War; The Book of Five Rings |
+| Phase 5 | Tactical Humour and Communication | Striking Thoughts; The Art of War; Tao of Jeet Kune Do; supplementary humour and rhetoric texts |
+
+```mermaid
+flowchart TD
+    A[Phase 1 - Physical Foundation] --> B[Phase 2 - Philosophy and Adaptability]
+    B --> C[Phase 3 - Mental Resilience]
+    C --> D[Phase 4 - Strategy]
+    D --> E[Phase 5 - Tactical Humour]
+    E --> F[Integrated Practice]
+```
+
+### 10.2 Weekly Study Template
+
+| Day | Study Focus | Practical Task |
+|---|---|---|
+| Day 1 | Strength principles | Review one Mentzer or strength chapter; plan one purposeful session |
+| Day 2 | Movement quality | Practise mobility or martial movement; note inefficiencies |
+| Day 3 | Mental resilience | Read one resilience chapter; complete a difficult but safe commitment |
+| Day 4 | Strategy | Study one Sun Tzu principle; apply it to a real decision |
+| Day 5 | Humour and communication | Study one humour resource; practise a low-risk reframe |
+| Day 6 | Integration | Train, review notes, and adjust the plan |
+| Day 7 | Recovery and reflection | Sleep, walk, review the week, and plan the next cycle |
+
+<br>
+
+## 11. Practical Integration Matrix
+
+| Area | Physical Strength | Mental Strength | Tactical Humour | Strategic Judgement |
+|---|---|---|---|---|
+| Fitness | Strength training, mobility, conditioning, recovery | Consistency and patience | Keep training enjoyable and perspective-rich | Plan cycles and avoid random effort |
+| Business | Energy, posture, endurance | Discipline and emotional control | Reduce tension and build team morale | Focus on high-value work and timing |
+| Learning | Physical health supports concentration | Persistence through difficult material | Use wit to reframe confusion | Choose what to study strategically |
+| Leadership | Presence and stamina | Calm under pressure | Build trust and de-escalate conflict | Prepare, adapt, and avoid unnecessary conflict |
+| Conflict | Stay grounded and capable | Regulate fear and anger | Expose absurdity without humiliation | Know when to act and when to wait |
+
+<br>
+
+## 12. Safety, Ethics, and Deployment Notes
+
+1. **Do not stack extremes.** Mentzer-style intensity, Goggins-style endurance, and Sun Tzu-style conservation cannot all be maximised at once.
+2. **Recovery is part of training.** Sleep, nutrition, stress management, and deloading are not optional extras.
+3. **Humour must be ethical.** Avoid humiliation, discrimination, and cruelty. Tactical humour should support dignity.
+4. **Use qualified coaching.** Advanced methods such as plyometrics, maximal lifting, and combat conditioning require supervision.
+5. **Seek medical advice when needed.** This guide is educational and does not replace professional care.
+6. **Measure outcomes.** Keep simple records of training, recovery, mood, and performance.
+7. **Adapt to context.** A method that works for an elite athlete may be unsuitable for a beginner, a busy professional, or a person with an injury history.
+
+<br>
+
+## 13. Master Resource Index
+
+| Category | Resources |
+|---|---|
+| Strength and Muscle Building | Mike Mentzer; Arthur Jones; Dorian Yates; Reg Park; Arnold Schwarzenegger; Pavel Tsatsouline; Charles Poliquin; Louie Simmons |
+| Martial Arts and Functional Performance | Bruce Lee; Masutatsu Oyama; Jigoro Kano; Morihei Ueshiba; Georges St-Pierre; Fedor Emelianenko |
+| Mobility and Athleticism | Ido Portal; Kelly Starrett; Gray Cook; Ben Patrick |
+| Endurance and Mental Toughness | David Goggins; Rich Froning Jr.; Emil Zátopek; Eliud Kipchoge |
+| Olympic Weightlifting and Explosive Power | Yuri Verkhoshansky; Mel Siff; Anatoliy Bondarchuk; Tudor Bompa |
+| Old-School Physical Culture | Eugen Sandow; George Hackenschmidt; Thomas Inch; Joseph Pilates |
+| Sports Science and Coaching | Verkhoshansky and Siff; Dan John; Mark Rippetoe; Stuart McGill; Andrew Huberman |
+| Premium Training Library | Heavy Duty; The Tao of Jeet Kune Do; Supertraining; Science and Practice of Strength Training; Starting Strength; Ultimate MMA Conditioning; Becoming a Supple Leopard; Ultimate Back Fitness and Performance |
+| Mentzer Reading | Heavy Duty; Heavy Duty II: Mind and Body; High-Intensity Training the Mike Mentzer Way; The Wisdom of Mike Mentzer; Muscles in Minutes; The New High Intensity Training; The Nautilus Book; Beyond Brawn |
+| Bruce Lee Reading | Tao of Jeet Kune Do; Bruce Lee’s Fighting Method; The Art of Expressing the Human Body; Striking Thoughts; Letters of the Dragon; Artist of Life; Bruce Lee: Words of the Dragon; In My Own Process; Bruce Lee: A Life |
+| Goggins Reading | Can’t Hurt Me; Never Finished; Living with a SEAL; Endure |
+| Sun Tzu Reading | The Art of War; The Book of Five Rings; The Thirty-Six Stratagems; On War; The Prince |
+| Tactical Humour Supplementary Reading | The Art of War; Tao of Jeet Kune Do; Striking Thoughts; The Book of Five Rings; The Thirty-Six Stratagems; On War; The Prince; The Psychology of Humor; The Humor Code; Thank You for Arguing |
+
+<br>
+
+## Conclusion
+
+Physical strength gives capability. Mental strength gives persistence and judgement. Strategic thinking gives direction. Tactical humour gives communication, perspective, and morale. Studied together, these resources form a balanced framework for performance in fitness, work, learning, leadership, and conflict.
+
+The aim is not to imitate every extreme method. The aim is to understand principles, resolve contradictions through context, and build a personal operating system that is strong, adaptable, disciplined, strategic, and humane.
 
 <h1 align="center">GEOPOLITICS SIMPLIFIED FOR BEGINNERS</h1>
 
