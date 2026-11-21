@@ -6003,5 +6003,496 @@ The Docker ecosystem continues to evolve with new tools and capabilities, but th
 
 For continued learning, explore Docker's official documentation, participate in community forums, and experiment with sample applications to build practical experience. The journey from container novice to production expert requires both conceptual understanding and hands-on practice, but delivers significant benefits in development velocity, deployment reliability, and operational efficiency.
 
+<br><br><br><br>
+
+<h1 align="center">Linux Commands</h1>
+ 
+<br><br>
+
+**file & directory management**
+want to organize your linux system fast? i use these commands to create, list, and navigate folders instantly. `ls` shows me what's there, `cd` moves me around, and `mkdir` builds new directories. i copy, move, or remove files with `cp`, `mv`, and careful `rm` commands. this keeps my projects tidy and my workflow efficient.
+
+<br>
+
+**file viewing & editing**
+need to read or edit configs without a gui? i use `cat` and `less` to view files and `tail -f` to follow logs live. for quick edits, `nano` is simple, while `vim` offers powerful changes. this lets me fix issues directly in the terminal, fast.
+
+<br>
+
+**system information & monitoring**
+i check my system's health in seconds. `uptime` shows load, `free -h` displays memory, and `df -h` lists disk space. `lscpu` and `lsblk` give me hardware details instantly. these commands give me a real-time snapshot of performance.
+
+<br>
+
+**process management**
+to control running apps, i use `ps` to list processes and `top` to monitor them live. `kill` or `pkill` stops unwanted tasks, and `nice` adjusts priority. this keeps my system responsive and stable.
+
+<br>
+
+**permissions & ownership**
+linux security relies on permissions. i use `chmod` to set read, write, and execute access. `chown` changes file ownership, and `umask` sets safe defaults. this controls exactly who can access what.
+
+<br>
+
+**searching**
+finding files and text is simple. `find` locates files by name, and `locate` uses a fast database. `grep` searches inside files for specific patterns. these are my go-to tools for troubleshooting.
+
+<br>
+
+**text processing**
+i transform text streams with powerful tools. `awk` extracts fields, `sed` edits lines, and `sort` orders data. piping these together automates log analysis and reports.
+
+<br>
+
+**compression & archiving**
+for backups and transfers, i use `tar czf` to create compressed archives. `gzip` and `zip` handle other formats, and `rsync` efficiently syncs folders. this protects and moves my data reliably.
+
+<br>
+
+**networking - connectivity & diagnostics**
+i diagnose network issues with a few commands. `ping` tests connectivity, `traceroute` maps the path, and `ip a` shows my addresses. `dig` resolves dns queries instantly.
+
+<br>
+
+**networking - file transfer & remote access**
+to move files securely, `scp` copies them and `rsync` syncs directories. for remote access, `ssh` logs me into other servers. these are essential for managing systems anywhere.
+
+<br>
+
+**user & group management**
+i manage accounts with `useradd` to create users and `usermod` to change groups. `passwd` updates passwords, and `sudo` grants controlled admin access. this keeps system access secure and organized.
+
+<br>
+
+**system administration - services, disks, packages**
+i control services with `systemctl` and check logs with `journalctl`. `fdisk` manages disks, and `apt` or `dnf` handles packages. these core commands keep the system running.
+
+<br>
+
+**job scheduling & automation**
+i automate tasks using `crontab -e` for recurring jobs and `at` for one-time tasks. this runs backups and maintenance on a schedule, saving me time.
+
+<br>
+
+**terminal & shell - basics, redirection, shortcuts**
+i speed up my work with shell shortcuts. `alias` creates quick commands, and pipes `|` redirect data flow. `ctrl+r` searches history, and `ctrl+c` stops any command.
+
+<br>
+
+**system control & power operations**
+to reboot safely, i use `shutdown -r now` or `reboot`. i always warn users first. these commands ensure clean and controlled system restarts.
+
+<br>
+
+**special utilities & troubleshooting**
+for deep debugging, `strace` traces system calls and `lsof` lists open files. `dmesg` shows kernel messages, and `iotop` monitors disk i/o. these tools reveal the true system state.
+
+<br><br><br><br>
+ 
+
+## **File & Directory Management**
+### **Navigation & Listing**
+- `ls` - List directory contents
+- `ls -l` - Long listing format
+- `ls -la` - Long listing with hidden files
+- `ls -lt` - Sort by modification time
+- `cd [dir]` - Change directory
+- `cd` or `cd ~` - Go to home directory
+- `cd ..` - Move up one level
+- `pwd` - Print working directory
+- `mkdir [dir]` - Create directory
+- `mkdir -p` - Create with parent directories
+- `rmdir [dir]` - Remove empty directory
+- `tree` - Display directory tree
+
+### **File Operations**
+- `touch [file]` - Create or update file timestamp
+- `cp [src] [dest]` - Copy files/directories
+- `cp -r` - Copy recursively
+- `mv [src] [dest]` - Move/rename files
+- `rm [file]` - Remove file
+- `rm -r` or `rm -R` - Remove recursively
+- `rm -f` - Force remove
+- `rm -rf` - Force recursive remove
+- `ln -s [target] [link]` - Create symbolic link
+- `ln` - Create hard link
+- `stat [file]` - Display file statistics
+- `file [name]` - Determine file type
+
+### **File Viewing & Editing**
+- `cat [file]` - Concatenate/display file content
+- `cat > [file]` - Create file from stdin
+- `tac [file]` - Display file in reverse
+- `more [file]` - Page through file
+- `less [file]` - Advanced file viewer
+- `head [file]` - Show first 10 lines
+- `head -n [num] [file]` - Show first N lines
+- `tail [file]` - Show last 10 lines
+- `tail -n [num] [file]` - Show last N lines
+- `tail -f [file]` - Follow file as it grows
+- `vi`/`vim` - Text editor
+- `nano` - Simple text editor
+- `emacs` - Advanced text editor
+
+<br>
+
+## **System Information & Monitoring**
+### **System Status**
+- `uname -a` - Show all system info
+- `uname -r` - Kernel version
+- `hostname` - Show/set system hostname
+- `hostnamectl` - System hostname control
+- `uptime` - System uptime and load
+- `date` - Show/set date and time
+- `cal` - Display calendar
+- `free` - Memory usage
+- `free -h` - Human-readable memory
+- `free -m` - Memory in MB
+- `df` - Disk space usage
+- `df -h` - Human-readable disk space
+- `du` - Directory space usage
+- `du -h` - Human-readable directory size
+- `du -sh` - Summary of directory size
+- `lscpu` - CPU information
+- `lsblk` - List block devices
+- `lsblk -f` - With filesystem info
+- `lspci` - List PCI devices
+- `lsusb` - List USB devices
+
+### **Process Management**
+- `ps` - Display processes
+- `ps aux` - Detailed process list
+- `ps -ef` - Full format listing
+- `top` - Real-time process viewer
+- `htop` - Interactive process viewer
+- `pgrep [pattern]` - Find processes by pattern
+- `pkill [pattern]` - Kill processes by pattern
+- `kill [pid]` - Terminate process
+- `kill -9 [pid]` - Force kill process
+- `killall [proc]` - Kill all processes by name
+- `nice` - Run with modified priority
+- `renice` - Change priority of running process
+- `jobs` - List background jobs
+- `bg` - Resume job in background
+- `bg %[n]` - Resume specific job
+- `fg` - Bring job to foreground
+- `fg %[n]` - Bring specific job to foreground
+- `nohup` - Run immune to hangups
+
+<br>
+
+## **Permissions & Ownership**
+- `chmod [mode] [file]` - Change permissions
+- `chown [owner]:[group] [file]` - Change ownership
+- `chgrp [group] [file]` - Change group
+- `umask` - Set default permissions
+- `getfacl` - Get file access control lists
+- `setfacl` - Set file access control lists
+
+<br>
+
+## **Searching**
+- `find [path] [options]` - Find files/directories
+- `find . -name [pattern]` - Find by name
+- `locate [file]` - Find using database
+- `which [command]` - Show command path
+- `whereis [command]` - Show binary/source/man locations
+- `type [command]` - Display command type
+- `grep [pattern] [file]` - Search text patterns
+- `grep -r [pattern] [dir]` - Recursive search
+- `grep -i` - Case-insensitive search
+- `grep -v` - Invert match
+- `grep -c` - Count matches
+- `command | grep [pattern]` - Pipe output to grep
+
+<br>
+
+## **Text Processing**
+- `sed` - Stream editor
+- `awk` - Text processing language
+- `cut` - Remove sections from lines
+- `paste` - Merge lines of files
+- `sort` - Sort lines
+- `uniq` - Remove duplicate lines
+- `wc` - Word/line/character count
+- `diff` - Compare files
+- `cmp` - Compare two files
+- `tr` - Translate/delete characters
+- `tee` - Redirect to file and stdout
+
+<br>
+
+## **Compression & Archiving**
+- `tar cf [archive.tar] [files]` - Create tar
+- `tar xf [archive.tar]` - Extract tar
+- `tar czf [archive.tar.gz] [files]` - Create gzipped tar
+- `tar xzf [archive.tar.gz]` - Extract gzipped tar
+- `tar cjf [archive.tar.bz2] [files]` - Create bzipped tar
+- `tar xjf [archive.tar.bz2]` - Extract bzipped tar
+- `gzip [file]` - Compress with gzip
+- `gunzip [file.gz]` or `gzip -d` - Decompress gzip
+- `bzip2 [file]` - Compress with bzip2
+- `bunzip2 [file.bz2]` - Decompress bzip2
+- `xz [file]` - Compress with xz
+- `unxz [file.xz]` - Decompress xz
+- `zip [archive.zip] [files]` - Create zip
+- `unzip [archive.zip]` - Extract zip
+- `7z` - 7-Zip archiver
+- `unrar` - Extract RAR archives
+
+<br>
+
+## **Networking**
+### **Connectivity & Diagnostics**
+- `ping [host]` - Test connectivity
+- `ping -c [count] [host]` - Limited pings
+- `traceroute [host]` - Trace network path
+- `mtr [host]` - Advanced traceroute
+- `netstat` - Network statistics
+- `netstat -tuln` - Listening ports
+- `netstat -tulnp` - With process info
+- `ss` - Socket statistics
+- `ifconfig` - Network interface config
+- `ip` - Advanced network config
+- `ip addr` or `ip a` - Show IP addresses
+- `ip link` - Network interface control
+- `ip route` - Routing table
+- `route` - Routing table (legacy)
+- `arp` - ARP table
+- `nmap [target]` - Network scanner
+- `nslookup [domain]` - DNS lookup
+- `dig [domain]` - DNS information
+- `dig -x [host]` - Reverse lookup
+- `whois [domain]` - Domain information
+- `host [domain]` - DNS lookup utility
+
+### **File Transfer**
+- `wget [url]` - Download files
+- `wget -c [url]` - Continue download
+- `curl [url]` - Transfer data
+- `curl -O [url]` - Save with remote name
+- `scp [file] [user@host:path]` - Secure copy
+- `scp -r` - Recursive secure copy
+- `rsync [src] [dest]` - Efficient file sync
+- `ftp [host]` - FTP client
+- `sftp [host]` - Secure FTP
+- `nc` or `netcat` - Network utility
+
+### **Remote Access**
+- `ssh [user@host]` - Secure shell
+- `ssh -i [key] [user@host]` - SSH with key
+- `ssh-keygen` - Generate SSH keys
+
+<br>
+
+## **User & Group Management**
+- `whoami` - Current user
+- `who` - Logged in users
+- `w` - Logged in users with activity
+- `last` - Last logged in users
+- `id` - User/group IDs
+- `id [user]` - Specific user info
+- `groups [user]` - User's groups
+- `useradd [user]` - Add user
+- `adduser [user]` - Interactive user add
+- `usermod [options] [user]` - Modify user
+- `userdel [user]` - Delete user
+- `userdel -r [user]` - Delete with home dir
+- `groupadd [group]` - Add group
+- `groupmod [options] [group]` - Modify group
+- `groupdel [group]` - Delete group
+- `gpasswd` - Group administration
+- `passwd [user]` - Change password
+- `passwd -l [user]` - Lock account
+- `passwd -u [user]` - Unlock account
+- `su [user]` - Switch user
+- `sudo [command]` - Execute as superuser
+- `visudo` - Edit sudoers file
+
+<br>
+
+## **System Administration**
+### **Service Management**
+- `systemctl` - Systemd service control
+- `systemctl start [service]`
+- `systemctl stop [service]`
+- `systemctl restart [service]`
+- `systemctl status [service]`
+- `systemctl enable [service]`
+- `systemctl disable [service]`
+- `service [service] [action]` - SysV init
+- `journalctl` - Systemd journal
+
+### **Disk Management**
+- `fdisk -l` - List partitions
+- `fdisk [device]` - Partition editor
+- `parted [device]` - Advanced partition editor
+- `mkfs.[type] [device]` - Create filesystem
+- `mkfs.ext4 [device]` - Create ext4
+- `fsck [device]` - Filesystem check
+- `mount [device] [dir]` - Mount filesystem
+- `mount -a` - Mount all from fstab
+- `umount [dir]` or `umount [device]` - Unmount
+- `blkid` - Block device attributes
+- `lsblk` - List block devices
+- `swapon` - Enable swap
+- `swapoff` - Disable swap
+- `tune2fs` - Tune ext filesystems
+
+### **Package Management**
+**Debian/Ubuntu (APT):**
+- `apt update` - Update package lists
+- `apt upgrade` - Upgrade packages
+- `apt install [package]` - Install package
+- `apt remove [package]` - Remove package
+- `apt autoremove` - Remove unused packages
+- `apt search [term]` - Search packages
+- `apt show [package]` - Package info
+- `apt-cache search [term]` - Search packages
+
+**RedHat/CentOS (YUM/DNF):**
+- `yum update` or `dnf update`
+- `yum install [package]` or `dnf install`
+- `yum remove [package]` or `dnf remove`
+- `yum search [term]` or `dnf search`
+
+**Arch (Pacman):**
+- `pacman -Syu` - Update system
+- `pacman -S [package]` - Install
+- `pacman -R [package]` - Remove
+
+**Other:**
+- `rpm` - RPM package manager
+- `dpkg` - Debian package manager
+- `snap install [package]` - Snap packages
+- `flatpak install [package]` - Flatpak
+- `pip install [package]` - Python packages
+- `npm install [package]` - Node.js packages
+- `gem install [package]` - Ruby gems
+
+<br>
+
+## **Job Scheduling**
+- `crontab -e` - Edit crontab
+- `crontab -l` - List crontab
+- `crontab -r` - Remove crontab
+- `at [time]` - Schedule one-time job
+- `atq` - List pending at jobs
+- `atrm [job]` - Remove at job
+
+<br>
+
+## **Terminal & Shell**
+### **Shell Built-ins**
+- `alias` - Create command alias
+- `unalias` - Remove alias
+- `export` - Set environment variable
+- `env` or `printenv` - Environment variables
+- `set` - Set shell options
+- `echo [text]` - Output text
+- `echo $[VAR]` - Print variable
+- `history` - Command history
+- `history | grep [term]` - Search history
+- `!n` - Execute nth history command
+- `!!` - Repeat last command
+
+### **I/O Redirection**
+- `>` - Redirect output (overwrite)
+- `>>` - Redirect output (append)
+- `<` - Redirect input
+- `|` - Pipe
+- `2>` - Redirect stderr
+- `&>` - Redirect stdout and stderr
+- `tee` - Output to file and stdout
+
+### **Keyboard Shortcuts**
+- `Ctrl+C` - Terminate command
+- `Ctrl+Z` - Suspend command
+- `Ctrl+D` - End of file/Logout
+- `Ctrl+W` - Delete word
+- `Ctrl+U` - Delete line
+- `Ctrl+R` - Search history
+- `Ctrl+L` or `clear` - Clear screen
+- `Ctrl+A` - Move to line start
+- `Ctrl+E` - Move to line end
+
+<br>
+
+## **System Control**
+- `shutdown` - Shutdown system
+- `shutdown -h now` - Halt now
+- `shutdown -r now` - Reboot now
+- `reboot` - Reboot
+- `poweroff` - Power off
+- `halt` - Halt system
+- `init 0` - Poweroff (SysV)
+- `init 6` - Reboot (SysV)
+- `logout` or `exit` - End session
+
+<br>
+
+## **Special Utilities**
+- `xargs` - Build and execute commands
+- `watch [command]` - Execute periodically
+- `screen` - Terminal multiplexer
+- `tmux` - Terminal multiplexer
+- `strace [command]` - Trace system calls
+- `ltrace [command]` - Trace library calls
+- `lsof` - List open files
+- `lsof -i:[port]` - Files by port
+- `dmesg` - Kernel messages
+- `dmesg | less` - Paged kernel messages
+- `basename [path]` - Strip directory
+- `dirname [path]` - Strip filename
+- `realpath [file]` - Absolute path
+- `readlink -f [link]` - Resolve symlinks
+- `patch` - Apply patch files
+- `cryptsetup` - Disk encryption
+- `dd` - Convert and copy files
+- `dd if=[input] of=[output]` - Disk operations
+- `time [command]` - Time command execution
+- `timeout [time] [command]` - Run with timeout
+- `sleep [seconds]` - Delay execution
+- `wait` - Wait for background jobs
+- `ulimit` - User limits
+- `vmstat` - Virtual memory stats
+- `iostat` - I/O statistics
+- `mpstat` - CPU statistics
+- `sar` - System activity reporter
+- `iotop` - I/O usage
+- `iftop` - Network bandwidth
+- `nethogs` - Bandwidth per process
+
+<br>
+
+## **Key Patterns & Best Practices:**
+
+### **Common Combinations:**
+1. `ps aux | grep [process]` - Find specific process
+2. `grep -r "text" /path/` - Recursive text search
+3. `find / -name "*.log" -exec rm {} \;` - Find and remove
+4. `tar czf backup.tar.gz --exclude="*.tmp" /path/` - Backup with exclusions
+5. `rsync -avz source/ dest/` - Synchronize directories
+
+### **Permission Octal Codes:**
+- `4` = Read (r)
+- `2` = Write (w)
+- `1` = Execute (x)
+- `7` = 4+2+1 (rwx)
+- `6` = 4+2 (rw-)
+- `5` = 4+1 (r-x)
+- `0` = No permission (---)
+
+### **Common Directory Paths:**
+- `/etc/` - Configuration files
+- `/var/log/` - Log files
+- `/home/` - User directories
+- `/root/` - Root home
+- `/tmp/` - Temporary files
+- `/usr/` - User programs
+- `/opt/` - Optional software
+- `/proc/` - Process information
+- `/dev/` - Device files
+
 
 <br><br><br><br> 
