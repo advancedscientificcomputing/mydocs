@@ -6103,4 +6103,433 @@ The guide now covers arithmetic, exact fractions, the `math` module, statistics,
 
 The chapters are meant to be read in order for a first pass and dipped into for reference after that. The exercises at the end of each chapter are the point. A reader who runs the code without doing the exercises has read the guide. A reader who does the exercises has learned it.
 
+
+<br><br><br><br>
+
+<h1 align="center">EXERCISES FOR PRACTICE</h1>
+
+<br><br>
+
+## 1. Core Evaluator
+
+Copy this once. Use it for every exercise below.
+
+### Formula
+
+$$ \text{value}(E) = \text{eval}(E, ENV) $$
+$$ ENV = \{a: \frac{1}{1}, b: \frac{2}{1}, ..., z: \frac{26}{1}\} $$
+
+### Code
+
+```python
+from fractions import Fraction
+from math import comb, perm, factorial
+
+letters = "abcdefghijklmnopqrstuvwxyz"
+ENV = {"__builtins__": {}}
+for i, ch in enumerate(letters, start=1):
+    ENV[ch] = Fraction(i)
+
+# Allow math helpers inside expressions
+ENV.update({"comb": comb, "perm": perm, "factorial": factorial})
+
+def exact_calc(expr):
+    expr = expr.replace("[", "(").replace("]", ")")
+    expr = expr.replace("{", "(").replace("}", ")")
+    return eval(expr, ENV, {})
+
+def fmt(x):
+    if isinstance(x, Fraction):
+        if x.denominator == 1:
+            return str(x.numerator)
+        return f"{x.numerator}/{x.denominator}"
+    return str(x)
+
+def check(expr):
+    value = exact_calc(expr)
+    print(expr)
+    print("exact :", fmt(value))
+    print("decimal:", f"{float(value):.6g}")
+    print("-" * 50)
+
+def safe_check(expr):
+    try:
+        return exact_calc(expr)
+    except ZeroDivisionError:
+        print("zero denominator:", expr)
+        return None
+```
+
+**Description:** Every letter becomes an exact `Fraction`. Brackets `[ ]` and `{ }` are rewritten to `( )` before evaluation. `fmt()` prints the exact fraction first. Decimal is display only. `safe_check()` prevents a crash when a denominator becomes `0` under this mapping.
+
+<br>
+
+## 2. Reading Rules
+
+These two rules explain almost every surprise in the list.
+
+### Rule 1: Division / Multiplication Chain Left
+
+$$ x / y / z = (x / y) / z = \frac{x}{y \cdot z} $$
+$$ x / y * z = (x / y) * z = \frac{x \cdot z}{y} $$
+$$ x * y / z = (x * y) / z $$
+
+**Description:** Read `/` and `*` left to right. A chain collapses into one fraction with a product in the denominator.
+
+<br>
+
+### Rule 2: Powers Chain Right
+
+$$ x ** y ** z = x^{y^{z}} $$
+$$ (x ** y) ** z = x^{y \cdot z} $$
+
+**Description:** Powers associate to the right. Bracketed powers collapse by multiplying exponents.
+
+### Exactness Identity
+
+$$ \frac{1}{3} + \frac{1}{3} + \frac{1}{3} = 1 $$
+
+```python
+from fractions import Fraction
+Fraction(1, 3) + Fraction(1, 3) + Fraction(1, 3)
+```
+
+**Description:** `Fraction` keeps division exact. Float `0.333...` does not.
+
+### Notation Bridge
+
+| Python | Math | Note |
+| :--- | :--- | :--- |
+| `+` | addition | Same |
+| `-` | subtraction / unary minus | `-a` is a value |
+| `*` | multiplication | Math often writes `ab` |
+| `/` | fraction bar | One `/` = one fraction level |
+| `**` | exponent | `a ** b = a^b` |
+| `( )` | grouping | Parentheses |
+| `[ ]`, `{ }` | grouping in math only | In Python they are lists / dicts / sets, convert to `( )` |
+| `//` | floor division | No common school notation |
+| `%` | remainder | Returns `0` to `divisor-1` |
+
+<br>
+
+## 3. List of Exercises (50)
+
+### Tier 0 — Warm-Up: Beginner
+
+**Goal:** Speed, precedence, one or two operators.
+
+**1. W1 — Sum of three**
+- **Formula:** $$ a + b + c $$
+- **Code:** `a + b + c`
+- **Description:** Basic addition, left to right. Tests reading letters as values and adding without brackets. No precedence trap.
+
+**2. W2 — Product plus constant**
+- **Formula:** $$ ab + c $$
+- **Code:** `a * b + c`
+- **Description:** Multiplication before addition. Tests that `*` binds tighter than `+`. Do not add first.
+
+**3. W3 — Bracket before multiply**
+- **Formula:** $$ (a + b)c $$
+- **Code:** `(a + b) * c`
+- **Description:** Bracket forces addition first. Tests that parentheses override default precedence. Compare with W2 to see why brackets matter.
+
+**4. W4 — Reverse subtraction**
+- **Formula:** $$ z - a $$
+- **Code:** `z - a`
+- **Description:** Order matters in subtraction. Tests that `z - a` is not the same as `a - z`. Sign depends on order.
+
+**5. W5 — Simple fraction**
+- **Formula:** $$ \frac{a}{b} $$
+- **Code:** `a / b`
+- **Description:** One division creates one fraction level. Tests exact fraction output. With `Fraction`, result is `1/2`, not `0.5`.
+
+**6. W6 — Small power**
+- **Formula:** $$ a^{b} $$
+- **Code:** `a ** b`
+- **Description:** Exponentiation. Tests `**` syntax. Base is `1` here, so result stays small. This changes dramatically when base changes.
+
+**7. W7 — Bracket difference**
+- **Formula:** $$ \frac{a+b}{c-d} $$
+- **Code:** `(a + b) / (c - d)`
+- **Description:** Numerator and denominator are evaluated before division. Denominator can be negative. Tests full grouping on both sides of `/`.
+
+**8. W8 — Two products**
+- **Formula:** $$ ab - cd $$
+- **Code:** `a * b - c * d`
+- **Description:** Both products before subtraction. Tests that `*` happens before `-` on both sides. Evaluate each product as a block.
+
+**9. W9 — Mixed precedence**
+- **Formula:** $$ a + bc - d $$
+- **Code:** `a + b * c - d`
+- **Description:** Multiplication first, then addition and subtraction left to right. Tests mixed precedence in one line without brackets.
+
+**10. W10 — Two bracket groups**
+- **Formula:** $$ (a+b)(c-d) $$
+- **Code:** `(a + b) * (c - d)`
+- **Description:** Product of two bracketed groups. Sign depends on second group. Tests evaluating each bracket independently before multiplying.
+
+### Tier 1 — Bracket Structure: Beginner to Intermediate
+
+**Goal:** Nested brackets, sign tracking.
+
+**11. B1 — Bracket then divide**
+- **Formula:** $$ \frac{(a+b)(c-d)}{e+f} $$
+- **Code:** `((a + b) * (c - d)) / (e + f)`
+- **Description:** Full numerator evaluated before division. Tests building a numerator block, then dividing by a sum block. Do not divide early.
+
+**12. B2 — Subtraction chain**
+- **Formula:** $$ a - (b - (c - d)) $$
+- **Code:** `a - (b - (c - d))`
+- **Description:** Nested subtraction flips signs at each level. Read inside out. Tests that `a - (b - x)` is `a - b + x`, not `a - b - x`.
+
+**13. B3 — Two separate differences**
+- **Formula:** $$ (a-b) - (c-d) $$
+- **Code:** `(a - b) - (c - d)`
+- **Description:** Two independent differences, then subtract. Tests keeping two groups separate. Second group is subtracted as a whole.
+
+**14. B4 — Bracket inside a bracket**
+- **Formula:** $$ \frac{(a+b)c - d}{e+f} $$
+- **Code:** `((a + b) * c - d) / (e + f)`
+- **Description:** Inner product, then subtraction, then division. Tests three levels: inner bracket, middle expression, outer division.
+
+**15. B5 — Four groups in two pairs**
+- **Formula:** $$ ab + cd - (ef + gh) $$
+- **Code:** `((a * b) + (c * d)) - ((e * f) + (g * h))`
+- **Description:** Two sums, then one subtraction. Tests grouping products into sums before the final subtraction. The bracketed sum is subtracted as a unit.
+
+**16. B6 — Fraction of products**
+- **Formula:** $$ \frac{(a+b)(c+d)}{(e+f)(g+h)} $$
+- **Code:** `((a + b) * (c + d)) / ((e + f) * (g + h))`
+- **Description:** Product over product. Simplify only after full evaluation. Tests that numerator and denominator are each a product of sums.
+
+**17. B7 — Product of signed pairs**
+- **Formula:** $$ (a-b)(c-d)(e-f) $$
+- **Code:** `(a - b) * (c - d) * (e - f)`
+- **Description:** Sign of result depends on count of negative factors. Tests sign counting. An odd count of negatives gives a negative product.
+
+**18. B8 — Nested bracket with three levels**
+- **Formula:** $$ \frac{(a+b)(c-d) - (e+f)}{(g+h)(i-j)} $$
+- **Code:** `(((a + b) * (c - d)) - (e + f)) / ((g + h) * (i - j))`
+- **Description:** Three-level nesting. Evaluate innermost groups first. Tests holding numerator and denominator as separate trees before dividing.
+
+### Tier 2 — Division Chains: Intermediate
+
+**Goal:** Left-associative division, fraction collapse.
+
+**19. D1 — Two divisions**
+- **Formula:** $$ \frac{a}{bc} $$
+- **Code:** `a / b / c`
+- **Description:** Left-associative: `(a/b)/c`. Tests Rule 1. Result is smaller than `a/b` because denominator grows.
+
+**20. D2 — Two divisions, bracketed differently**
+- **Formula:** $$ \frac{a}{b/c} = \frac{ac}{b} $$
+- **Code:** `a / (b / c)`
+- **Description:** Inner division becomes denominator inversion. Result differs from D1. Tests that one pair of brackets completely changes the value. Compare D1 and D2 side by side.
+
+**21. D3 — Four-link chain**
+- **Formula:** $$ \frac{z}{y \cdot x \cdot w} $$
+- **Code:** `z / y / x / w`
+- **Description:** Long left chain collapses to one fraction. Tests repeated application of Rule 1. Numerator stays single, denominator becomes a product.
+
+**22. D4 — Alternate divide and multiply**
+- **Formula:** $$ \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd} $$
+- **Code:** `a / b * c / d`
+- **Description:** Evaluated as `((a/b)*c)/d`. Tests mixing `/` and `*` in one left-to-right chain. Do not group as `a/(b*c/d)`.
+
+**23. D5 — Two fraction groups added**
+- **Formula:** $$ \frac{a}{bc} + \frac{d}{ef} $$
+- **Code:** `a / (b * c) + d / (e * f)`
+- **Description:** Two fractions with product denominators, then addition. Tests building each fraction block first, then adding exact fractions.
+
+**24. D6 — Fraction divided by fraction**
+- **Formula:** $$ \frac{a/b}{c/d} = \frac{ad}{bc} $$
+- **Code:** `(a / b) / (c / d)`
+- **Description:** Divide by a fraction means multiply by its reciprocal. Tests reciprocal logic. Numerator and denominator of the result swap compared to D7.
+
+**25. D7 — Product of two fractions**
+- **Formula:** $$ \frac{a}{b} \cdot \frac{c}{d} = \frac{ac}{bd} $$
+- **Code:** `(a / b) * (c / d)`
+- **Description:** Numerator times numerator, denominator times denominator. Tests direct fraction multiplication. Compare with D6: same inputs, different operator, different denominator.
+
+**26. D8 — Full alphabet collapse**
+- **Formula:** $$ \frac{z}{y \cdot x \cdot w \cdots c \cdot b \cdot a} $$
+- **Code:** `z / y / x / w / v / u / t / s / r / q / p / o / n / m / l / k / j / i / h / g / f / e / d / c / b / a`
+- **Description:** Extreme left chain. Single numerator, product of all remaining letters in denominator. Tests stamina and collapse rule. Do not expand by hand; use `fmt()`.
+
+### Tier 3 — Powers and Growth: Intermediate
+
+**Goal:** Right-associative powers, huge numbers.
+
+**27. P1 — Right-associative power**
+- **Formula:** $$ a^{b^{c}} $$
+- **Code:** `a ** b ** c`
+- **Description:** Evaluates as `a ** (b ** c)`. Tests Rule 2. With base `1`, result stays `1` and hides the rule, so re-test with base `b`.
+
+**28. P2 — Left-associative power**
+- **Formula:** $$ (a^{b})^{c} = a^{bc} $$
+- **Code:** `(a ** b) ** c`
+- **Description:** Brackets force left association. Exponents multiply. Tests that brackets change a tower into a simple product of exponents.
+
+**29. P3 — Explicit right form**
+- **Formula:** $$ a^{b^{c}} $$
+- **Code:** `a ** (b ** c)`
+- **Description:** Same as P1, written explicitly. Tests that explicit brackets confirm the default right-associative reading. Use this form when clarity matters.
+
+**30. P4 — Same base, two forms**
+- **Formula:** $$ b^{c^{d}} $$
+- **Code:** `b ** c ** d`
+- **Description:** Right-associative tower. Grows very fast. Tests handling huge values. Do not try to write the full number by hand.
+
+**31. P5 — Bracketed version of P4**
+- **Formula:** $$ (b^{c})^{d} = b^{cd} $$
+- **Code:** `(b ** c) ** d`
+- **Description:** Bracketed form. Much smaller than P4. Tests contrast: same letters, different brackets, vastly different size. Compare digit counts.
+
+**32. P6 — Bracket squared**
+- **Formula:** $$ (a+b)^{2} $$
+- **Code:** `(a + b) ** 2`
+- **Description:** Square of a sum. Tests that the sum is completed before squaring. Not equal to `a**2 + b**2`.
+
+**33. P7 — Difference of squares**
+- **Formula:** $$ (a+b)^{2} - (c-d)^{2} $$
+- **Code:** `(a + b) ** 2 - (c - d) ** 2`
+- **Description:** Difference of two squared groups. Tests evaluating each squared block separately, then subtracting. Second block can be `1` even when its inner difference is `-1`.
+
+**34. P8 — Power with a fraction base**
+- **Formula:** $$ \frac{a^{b} - c}{d+e} $$
+- **Code:** `(a ** b - c) / (d + e)`
+- **Description:** Power first, then subtraction, then division. Tests precedence across `**`, `-`, `/` in one expression. Numerator can be negative.
+
+### Tier 4 — Mixed Monsters: Advanced
+
+**Goal:** Four or more operations, several groups.
+
+**35. M1 — Parenthesis Jungle**
+- **Formula:** $$ \frac{(a+b)(c-d)}{(e+f)(g-h)} + (i+j)(k-l) $$
+- **Code:** `((a + b) * (c - d)) / ((e + f) * (g - h)) + ((i + j) * (k - l))`
+- **Description:** Division block plus product block. Division happens before final addition. Tests splitting into two blocks and combining last. Draw the tree if text gets hard to follow.
+
+**36. M2 — Long Alternating Chain**
+- **Formula:** $$ ab - \frac{c}{d} + ef - \frac{g}{h} + ij - \frac{k}{l} + mn - \frac{o}{p} + qr - \frac{s}{t} + uv - \frac{w}{x} $$
+- **Code:** `a * b - c / d + e * f - g / h + i * j - k / l + m * n - o / p + q * r - s / t + u * v - w / x`
+- **Description:** Alternating products and fractions. Group each pair before combining. Tests stamina and left-to-right addition/subtraction after `*` and `/` are resolved.
+
+**37. M3 — Unexpected Negative**
+- **Formula:** $$ (a-z)(b-y) + (c-x)(d-w) - (e-v)(f-u) $$
+- **Code:** `(a - z) * (b - y) + (c - x) * (d - w) - (e - v) * (f - u)`
+- **Description:** Each bracket is negative. Product of two negatives is positive. Tests sign tracking across three products. The final subtraction still subtracts a positive product.
+
+**38. M4 — Balanced Chaos**
+- **Formula:** $$ (a+b+c+d+e)(f+g+h+i+j) - \frac{k+l+m+n+o}{p+q+r+s+t} + (u+v+w+x+y+z) $$
+- **Code:** `((a + b + c + d + e) * (f + g + h + i + j)) - ((k + l + m + n + o) / (p + q + r + s + t)) + (u + v + w + x + y + z)`
+- **Description:** Large product, minus fraction, plus sum. Tests three-block structure. The large product dominates, but the fraction is still exact and must not be dropped.
+
+**39. M5 — Exponential Tsunami**
+- **Formula:** $$ a^{bc} - d^{ef} + g^{hi} - j^{kl} + m^{no} $$
+- **Code:** `(a ** b) ** c - (d ** e) ** f + (g ** h) ** i - (j ** k) ** l + (m ** n) ** o`
+- **Description:** Five bracketed powers combined. Use exact form, do not expand by hand. Tests that `(x**y)**z` is used consistently, not mixed with `x**y**z`.
+
+**40. M6 — Infinite Fraction Abyss**
+- **Formula:** $$ \frac{\frac{a}{bcdef}}{\frac{g}{hijkl}} + \frac{m}{nopq} = \frac{a \cdot hijkl}{bcdef \cdot g} + \frac{m}{nopq} $$
+- **Code:** `(((((a / b) / c) / d) / e) / f) / (((((g / h) / i) / j) / k) / l) + ((((m / n) / o) / p) / q)`
+- **Description:** Fraction over fraction plus fraction. Collapse each chain first. Tests D1 + D6 combined. First collapse left chain, then right chain, then divide, then add.
+
+**41. M7 — Negative Dimensional Rift**
+- **Formula:** $$ (a-z)(b-y)(c-x)(d-w)(e-v) - (f-u)(g-t)(h-s)(i-r)(j-q) $$
+- **Code:** `((a - z) * (b - y) * (c - x) * (d - w) * (e - v)) - ((f - u) * (g - t) * (h - s) * (i - r) * (j - q))`
+- **Description:** Two five-factor negative products, then subtraction. Tests sign counting for 5 factors: odd count gives negative product. Both blocks are negative, so subtraction becomes addition of magnitudes in effect.
+
+**42. M8 — Parenthesis Hive Mind**
+- **Formula:** $$ \left( \frac{(a+b)(c-d)}{ef} - \frac{(g+h)(i-j)}{kl} + \frac{(m-n)(o+p)}{q-r} \cdot (s+t) \right) - \frac{(u-v)(w+x)}{y-z} $$
+- **Code:** `(((((a + b) * (c - d)) / (e * f)) - ((g + h) * (i - j)) / (k * l)) + (((m - n) * (o + p)) / (q - r)) * (s + t)) - ((u - v) * (w + x) / (y - z))`
+- **Description:** Three inner blocks combined, then minus a final fraction block. Tests deep nesting and keeping the outer bracket intact. Evaluate innermost products first, then each fraction block.
+
+**43. M9 — Absolute Final Boss**
+- **Formula:** $$ \frac{ab + cd - (ef + gh)}{ij - kl + mn - op} \times \frac{q+r-(s+t)}{u-v+(w+x)} + y^{z} $$
+- **Code:** `((((a * b) + (c * d)) - ((e * f) + (g * h))) / (((i * j) - (k * l)) + ((m * n) - (o * p)))) * (((q + r) - (s + t)) / ((u - v) + (w + x))) + (y ** z)`
+- **Description:** Fraction times fraction plus a large power. Power dominates the result. Tests not dropping the small fraction because the power is huge. Keep exact form.
+
+**44. M10 — Three-Floor Building**
+- **Formula:** $$ \frac{\frac{a+b}{c-d} - \frac{e+f}{g-h}}{\frac{i+j}{k-l} + \frac{m+n}{o-p}} $$
+- **Code:** `(((a + b) / (c - d)) - ((e + f) / (g - h))) / (((i + j) / (k - l)) + ((m + n) / (o - p)))`
+- **Description:** Fraction of two fraction combinations. Evaluate top and bottom separately. Tests three-level fraction structure. Top and bottom are each a combination, not single fractions.
+
+### Tier 5 — Brainfry: Advanced
+
+**Goal:** Long expressions, deep nesting, split into named blocks.
+
+**45. F1 — Six products over three sums**
+- **Formula:** $$ \frac{ab + cd + ef + gh + ij + kl}{m+n+o+p+q} - \frac{rs + tu + vw}{x+y+z} $$
+- **Code:** `(a * b + c * d + e * f + g * h + i * j + k * l) / (m + n + o + p + q) - (r * s + t * u + v * w) / (x + y + z)`
+- **Description:** Two fraction blocks. Sum all products in each numerator first. Tests block discipline: numerator sum, denominator sum, divide, repeat, subtract.
+
+**46. F2 — Three negative powers over a difference of products**
+- **Formula:** $$ \frac{(a+b)^{c-d} + (e+f)^{g-h} - (i+j)^{k-l}}{(m+n)(o+p) - (q+r)(s+t)} $$
+- **Code:** `(((a + b) ** (c - d)) + ((e + f) ** (g - h)) - ((i + j) ** (k - l))) / ((m + n) * (o + p) - (q + r) * (s + t))`
+- **Description:** Negative exponents give exact fractions with `Fraction` bases. Do not use plain ints. Tests that `Fraction ** negative_int` stays exact, while `int ** negative_int` becomes float.
+
+**47. F3 — Two nested division towers**
+- **Formula:** $$ \frac{a}{\frac{b}{\frac{c}{\frac{d}{e/f}}}} + \frac{g}{\frac{h}{\frac{i}{j/k}}} $$
+- **Code:** `a / (b / (c / (d / (e / f)))) + g / (h / (i / (j / k)))`
+- **Description:** Nested division inverts at each level. Read from innermost outward. Tests recursive inversion. Each nested `/` flips the next level.
+
+### Tier 6 — Non-Arithmetic: Advanced
+
+**Goal:** Modulo, counting, identities, conditionals.
+
+**48. N1 — Modulo clock**
+- **Formula:** $$ ((z + a - 1) \bmod 26) + 1 $$
+- **Code:** `(z + a - 1) % 26 + 1`
+- **Description:** Wraps a letter value into 1 to 26 range. Tests modulo wrap pattern `(x - 1) % 26 + 1`. Result must land in 1 to 26. If you get 0 or 27, bracket placement is wrong.
+
+**49. N2 — Shift and wrap**
+- **Formula:** $$ (((m+n) \cdot o) \bmod 26) + 1 $$
+- **Code:** `((m + n) * o) % 26 + 1`
+- **Description:** Multiply, then wrap into 1 to 26. Tests `%` after `*`. Modulo binds tighter than `+`, but brackets make the order explicit. Useful for Caesar-style shifts.
+
+**50. N3 — Combination count**
+- **Formula:** $$ \binom{c+d}{e} $$
+- **Code:** `comb(c + d, e)`
+- **Description:** Number of ways to choose `e` from `c+d`. Requires `math.comb`. Tests moving from arithmetic to counting. Order does not matter here, unlike `perm`.
+
+<br>
+
+## 4. Practice Workflow
+
+1. Pick one exercise.
+2. Read brackets inside out.
+3. Write predicted exact value.
+4. Run `check("...")`.
+5. If mismatch, find first step where you diverged, not just final answer.
+6. For long expressions, split into named blocks, check each block, then combine.
+
+```python
+# Example: check M1 in blocks
+check("((a + b) * (c - d)) / ((e + f) * (g - h))")
+check("((i + j) * (k - l))")
+check("((a + b) * (c - d)) / ((e + f) * (g - h)) + ((i + j) * (k - l))")
+```
+<br>
+
+## 5. Common Pitfalls
+
+- **Division chain:** Read `z / y / x` as `(z/y)/x`, not `z/(y/x)`.
+- **Powers:** `b ** c ** d` differs from `(b ** c) ** d`. Parenthesise on purpose.
+- **Long expressions:** Split into named blocks, check each block, then combine.
+- **Float vs Fraction:** `0.333... == 1/3` is False. Compare with `Fraction`.
+- **Brackets:** `[ ]` and `{ }` are not grouping tokens in Python. Convert before `eval`.
+- **Modulo range:** `%` returns `0` to `25`. Use `(x - 1) % 26 + 1` for 1 to 26.
+- **Eval safety:** Restrict `__builtins__` and validate tokens. Do not use `eval` on public input without a tokenizer.
+
+<br>
+
+## 6. Key Takeaways
+
+1. Every long expression is a tree. Draw the tree when text gets hard to follow.
+2. Division and multiplication chain left. Powers chain right.
+3. Exact fractions show what floats hide.
+4. Brainfry expressions are not meant to be computed in head. Split, check, combine.
+5. A formula can be a count, a condition, or an identity. Not every expression is a decimal.
+6. Predict first, then check.
+
 <br><br><br><br>
